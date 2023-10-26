@@ -1,6 +1,8 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class Pickup : MonoBehaviour
+public class pickup : MonoBehaviour
 {
     GameManager gameManager;
     private bool didCountCoin = false;
@@ -11,9 +13,9 @@ public class Pickup : MonoBehaviour
         gameManager = GameObject.Find("Canvas").GetComponent<GameManager>();
     }
 
-    void OnTriggerEnter2D(Collider2D other) 
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player" && !didCountCoin) 
+        if (other.gameObject.tag == "Player" && !didCountCoin)
         {
             didCountCoin = true;
             gameManager.numOfCoins++;
