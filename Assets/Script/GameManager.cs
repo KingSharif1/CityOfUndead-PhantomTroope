@@ -6,10 +6,12 @@ public class GameManager : MonoBehaviour
     public int numOfLives = 3;
     public int numOfKeys = 0;
     public int numOfCoins = 0; 
+    // public int numOfPoint = 0;
 
     public TextMeshProUGUI livesText;
     public TextMeshProUGUI keysText;
     public TextMeshProUGUI coinsText;
+    // public TextMeshProUGUI CurrentScore;
 
     public Vector3 spawnPoint;
     public AudioSource audioSource;
@@ -28,6 +30,7 @@ public class GameManager : MonoBehaviour
         livesText.text = "Lives: "+numOfLives;
         keysText.text = "Keys: "+numOfKeys;
         coinsText.text = "Coins: "+numOfCoins;
+        // CurrentScore.text = "Point: "+numOfPoint;
 
         if(numOfCoins == 5)
         {
