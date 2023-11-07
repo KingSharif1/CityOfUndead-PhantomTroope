@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SideScrollerPlayer : MonoBehaviour
 {
-   public float moveSpeed = 10.0f;
+    public float moveSpeed = 10.0f;
 
     public float jumpForce = 500.0f;
 
@@ -14,10 +14,17 @@ public class SideScrollerPlayer : MonoBehaviour
 
     public bool shouldJump = false;
 
+    Animator animator;
+
+    SpriteRenderer spriteRenderer;
+
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -26,7 +33,32 @@ public class SideScrollerPlayer : MonoBehaviour
         // get horizontal input
         float horizontalInput = Input.GetAxis("Horizontal");
 
-        transform.Translate(new Vector3(horizontalInput, 0, 0) * moveSpeed * Time.deltaTime);
+        if (isGrounded)
+        {
+            transform.Translate(new Vector3(horizontalInput, 0, 0) * moveSpeed * Time.deltaTime);
+        }
+        else
+        {
+            moveSpeed = 7;
+            transform.Translate(new Vector3(horizontalInput, 0, 0) * moveSpeed * Time.deltaTime);
+            moveSpeed = 10;
+        }
+
+        //animate
+        if (horizontalInput > 0)
+        {
+            animator.SetBool("isRunning", true);
+            spriteRenderer.flipX = false;
+        }
+        else if (horizontalInput < 0)
+        {
+            animator.SetBool("isRunning", true);
+            spriteRenderer.flipX = true;
+        }
+        else
+        {
+            animator.SetBool("isRunning", false);
+        }
 
         if (Input.GetButtonDown("Jump") || Input.GetButtonDown("Vertical") && isGrounded)
         {
@@ -36,19 +68,24 @@ public class SideScrollerPlayer : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (shouldJump == true && isGrounded ) 
+        if (isGrounded && shouldJump == true)
         {
             // quickly set back to false so we don't double-jump
             shouldJump = false;
 
             //push the rigidbody UP
             rb.AddForce(transform.up * jumpForce);
+
+            //animate
+            animator.SetBool("isJumping", true);
         }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         isGrounded = true;
+        //rest animate
+        animator.SetBool("isJumping", false);
     }
 
     void OnTriggerExit2D(Collider2D other)
