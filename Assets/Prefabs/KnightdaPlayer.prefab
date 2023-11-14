@@ -48,6 +48,7 @@ GameObject:
   - component: {fileID: 7261287928824972311}
   - component: {fileID: 7261287928824972304}
   - component: {fileID: 4094046573657758708}
+  - component: {fileID: 321023353}
   m_Layer: 0
   m_Name: KnightdaPlayer
   m_TagString: Player
@@ -64,7 +65,7 @@ Transform:
   m_GameObject: {fileID: 7261287928824972332}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.249, y: 1.3642, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7261287929773896815}
@@ -210,7 +211,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9626d6cc35bb93b4c8c6e9293e59c0d3, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.472
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -326,6 +327,22 @@ MonoBehaviour:
   firePoint: {fileID: 4898678693012635461}
   fireForward: 1
   bulletForce: 958
+--- !u!114 &321023353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7261287928824972332}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44a1259169a89c54fa25c6af45359f98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  jumpForce: 10
+  isGrounded: 0
+  shouldJump: 0
 --- !u!1 &7261287929773896808
 GameObject:
   m_ObjectHideFlags: 0

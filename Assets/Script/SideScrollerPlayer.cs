@@ -30,19 +30,10 @@ public class SideScrollerPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // get horizontal input
+        // get horizontal n vertical input
         float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
 
-        if (isGrounded)
-        {
-            transform.Translate(new Vector3(horizontalInput, 0, 0) * moveSpeed * Time.deltaTime);
-        }
-        else
-        {
-            moveSpeed = 7;
-            transform.Translate(new Vector3(horizontalInput, 0, 0) * moveSpeed * Time.deltaTime);
-            moveSpeed = 10;
-        }
 
         //animate
         if (horizontalInput > 0)
@@ -59,11 +50,34 @@ public class SideScrollerPlayer : MonoBehaviour
         {
             animator.SetBool("isRunning", false);
         }
-
-        if (Input.GetButtonDown("Jump") || Input.GetButtonDown("Vertical") && isGrounded)
+  
+        //running
+        if (isGrounded)
         {
-            shouldJump = true;
+            transform.Translate(new Vector3(horizontalInput, 0, 0) * moveSpeed * Time.deltaTime);
         }
+        else
+        {
+            moveSpeed = 7;
+            transform.Translate(new Vector3(horizontalInput, 0, 0) * moveSpeed * Time.deltaTime);
+            moveSpeed = 10;
+        }
+
+        //jumping
+        if (verticalInput > 0f || Input.GetButtonDown("Jump") && isGrounded )
+        {
+            // Up button is pressed
+            Debug.Log("Up pressed");
+            shouldJump = true;
+
+        }
+        else if (verticalInput < 0f)
+        {
+            // Down button is pressed
+            Debug.Log("Down pressed");
+        }
+
+    
     }
 
     void FixedUpdate()
