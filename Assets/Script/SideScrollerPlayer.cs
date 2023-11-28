@@ -8,6 +8,11 @@ public class SideScrollerPlayer : MonoBehaviour
 
     public float jumpForce = 500.0f;
 
+    public int maxHealth = 100; // Player's maximum health
+
+    private int currentHealth; // Player's current health
+
+
     Rigidbody2D rb;
 
     public bool isGrounded = false;
@@ -22,6 +27,9 @@ public class SideScrollerPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // Initialize health
+        currentHealth = maxHealth;
+
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -99,7 +107,8 @@ public class SideScrollerPlayer : MonoBehaviour
     {
         isGrounded = true;
         //rest animate
-        animator.SetBool("isJumping", false);
+        // animator.SetBool("isJumping", false);
+        if(other == "");
     }
 
     void OnTriggerExit2D(Collider2D other)
