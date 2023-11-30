@@ -108,7 +108,7 @@ public class SideScrollerPlayer : MonoBehaviour
         isGrounded = true;
         //rest animate
         // animator.SetBool("isJumping", false);
-        if(other == "");
+        // if(other == ""); forgot what i was gon make this 
     }
 
     void OnTriggerExit2D(Collider2D other)
