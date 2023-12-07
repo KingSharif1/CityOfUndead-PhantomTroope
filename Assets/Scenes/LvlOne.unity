@@ -55400,7 +55400,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5140473744921197303, guid: 327bc22ece1882c44bae336e6722eb07, type: 3}
       propertyPath: m_Name
-      value: RocketPlayerFinal_0
+      value: RocketPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5140473744921197303, guid: 327bc22ece1882c44bae336e6722eb07, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8478057219410511378, guid: 327bc22ece1882c44bae336e6722eb07, type: 3}
       propertyPath: m_RootOrder
