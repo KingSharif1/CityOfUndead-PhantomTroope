@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RocketPlayer : MonoBehaviour
 {
+    GameManager gameManager;
     public float moveSpeed = 10.0f;
 
     public float jumpForce = 20.0f;
@@ -26,6 +27,8 @@ public class RocketPlayer : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        gameManager = GameObject.Find("Canvas").GetComponent<GameManager>();
+
     }
 
     // Update is called once per frame
@@ -102,6 +105,14 @@ public class RocketPlayer : MonoBehaviour
         isGrounded = true;
         //rest animate
         animator.SetBool("isJumping", false);
+        if (gameManager.numOfLives >= 0 && other.CompareTag("Enemy")) // Assuming enemy collision
+        {
+            // = true;  Set isHit to true when hit by an enemy
+            animator.SetTrigger("isHit"); // Trigger the isHit animation
+        }else if(gameManager.numOfLives < 0)
+        {
+            animator.SetTrigger("Dead");
+        }
     }
 
     void OnTriggerExit2D(Collider2D other)

@@ -21,14 +21,18 @@ public class EpicFailed : MonoBehaviour
             isColliding = true;
             if(gameManager.numOfLives == 0)
             {
+                other.gameObject.GetComponent<Animator>().SetTrigger("Dead");
+
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+                // other.gameObject.transform.position = gameManager.spawnPoint;
+
                 Debug.Log("GGs buddy");
             }
-            else
+            else if(gameManager.numOfLives > 0)
             {
                 gameManager.numOfLives--;
-                other.gameObject.transform.position = gameManager.spawnPoint;
-                Debug.Log("nice try buddy");
+                Debug.Log("ik that hurt");
             }
             StartCoroutine(Reset());
 
