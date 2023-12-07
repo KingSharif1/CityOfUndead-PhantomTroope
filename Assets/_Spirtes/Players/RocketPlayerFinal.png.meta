@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3da333d30f020474bb5bd3fefa770761
+guid: 2938e6ae2e741234c90bf36f74fe54c1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 13
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: KnifePlayerFinal_0
+      name: RocketPlayerFinal_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2251fb3cf4b031438e095fcd8c6d71d
-      internalID: 2003697164
+      spriteID: 4b695965eeeb38b4d80f3bc57e0e9382
+      internalID: -127174172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_1
+      name: RocketPlayerFinal_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87d0861a10b5a4643b2b4e10294d5623
-      internalID: 1869989484
+      spriteID: 96c87cd6c419d0643b6c153aab3bb7af
+      internalID: 573384900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_2
+      name: RocketPlayerFinal_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec2b3f3b2f029784d841ba71d5c558a1
-      internalID: -1012312776
+      spriteID: 570e1c74047c8354faa156245a03dc3e
+      internalID: -163376497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_3
+      name: RocketPlayerFinal_3
       rect:
         serializedVersion: 2
         x: 192
@@ -194,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da990eead6d2f594189b7790b34b69d2
-      internalID: -164970006
+      spriteID: 6f11d6bff5751d14fae4e06e38ae5b93
+      internalID: -2066622183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_4
+      name: RocketPlayerFinal_4
       rect:
         serializedVersion: 2
         x: 256
@@ -215,35 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab7b3bfc13362f744b54cea5b4c9cc87
-      internalID: -903831812
+      spriteID: efb372e1cb0fa694b84a4eb0b4c6147f
+      internalID: -122294898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f33cba06d75e284b902453c8c19500e
-      internalID: -139905322
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KnifePlayerFinal_6
+      name: RocketPlayerFinal_5
       rect:
         serializedVersion: 2
         x: 0
@@ -257,14 +236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6d33fdb1e29ada46bdf7f43ec3ca7e6
-      internalID: -1295725902
+      spriteID: 4391561612d68444d9097ac219ada8de
+      internalID: -1917089347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_7
+      name: RocketPlayerFinal_6
       rect:
         serializedVersion: 2
         x: 64
@@ -278,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b001c02b334c04442ab6964749824599
-      internalID: -788826558
+      spriteID: 314e526700e65ac4fb9bd8ca1cac49a2
+      internalID: -1416556443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_8
+      name: RocketPlayerFinal_7
       rect:
         serializedVersion: 2
         x: 128
@@ -299,14 +278,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e9b6f5ff6bbd57469a7dd9bc9efe4c5
-      internalID: -928695428
+      spriteID: f192034ca370e5a479a446c7fea30981
+      internalID: -769228555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_9
+      name: RocketPlayerFinal_8
       rect:
         serializedVersion: 2
         x: 192
@@ -320,14 +299,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f72fa8fd8eb22940afbebb1925c89bd
-      internalID: -1167289132
+      spriteID: 402e5106d0fae734398fb4e11b5834de
+      internalID: -428121649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_10
+      name: RocketPlayerFinal_9
       rect:
         serializedVersion: 2
         x: 256
@@ -341,35 +320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9952f64471608c4592ecba376f28409
-      internalID: -5426380
+      spriteID: 35115e6ff65a8d344beb4d66c11d30e1
+      internalID: -244400960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_11
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d75548b67f031674b93df5e23aa5c0d4
-      internalID: 1793015114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KnifePlayerFinal_12
+      name: RocketPlayerFinal_10
       rect:
         serializedVersion: 2
         x: 0
@@ -383,14 +341,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad74ec2d6c2300e4aa018ed815912bce
-      internalID: 614670535
+      spriteID: 463a2701f405e2b41afb71fea2e42c68
+      internalID: 183230604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_13
+      name: RocketPlayerFinal_11
       rect:
         serializedVersion: 2
         x: 64
@@ -404,14 +362,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb3c00f4bbec7f148a85b0f0128fdd41
-      internalID: 1297024609
+      spriteID: 5c8089efb45b946428594ec822748c88
+      internalID: 1062588130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_14
+      name: RocketPlayerFinal_12
       rect:
         serializedVersion: 2
         x: 128
@@ -425,14 +383,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c10166a798082034fb7ac4066c27000e
-      internalID: -1478015808
+      spriteID: 0ef4f4a8f2da2804094a51b0f5c5af77
+      internalID: 2145309224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_15
+      name: RocketPlayerFinal_13
       rect:
         serializedVersion: 2
         x: 192
@@ -446,14 +404,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 177cac05677dd094d834969c1c8086d2
-      internalID: 528681499
+      spriteID: d9f389511c6c16f47a586984f25b0acc
+      internalID: 1983190620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_16
+      name: RocketPlayerFinal_14
       rect:
         serializedVersion: 2
         x: 256
@@ -467,35 +425,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 685b56e077a38a941888e5d176e047ae
-      internalID: -1484595853
+      spriteID: dc4b4b79a2aa3034989bff9e8371934b
+      internalID: 503247406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_17
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e122eb7984a9ed47a09eb882a0422bc
-      internalID: 12851757
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KnifePlayerFinal_18
+      name: RocketPlayerFinal_15
       rect:
         serializedVersion: 2
         x: 0
@@ -509,14 +446,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb403c2f20ddc0e4abb038757f385388
-      internalID: -2143938335
+      spriteID: fea8c63764c633946bf6b5f6f7e2e1e6
+      internalID: 1940545620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_19
+      name: RocketPlayerFinal_16
       rect:
         serializedVersion: 2
         x: 64
@@ -530,14 +467,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31ad73e441d718d41b7ddb90f868a82f
-      internalID: -252194511
+      spriteID: 7464eb3e9b0d1dd44b5e6b0affb84b90
+      internalID: -1288958519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_20
+      name: RocketPlayerFinal_17
       rect:
         serializedVersion: 2
         x: 128
@@ -551,14 +488,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 662ca59349af88c42801510a388b7d61
-      internalID: 316583603
+      spriteID: 4fb76a51e12fa0849962aa40d3fddc34
+      internalID: 1864659986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_21
+      name: RocketPlayerFinal_18
       rect:
         serializedVersion: 2
         x: 192
@@ -572,14 +509,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 235e00bb5a06f1344971f67ff1026bbd
-      internalID: -57266796
+      spriteID: 36e9e43eb5dee2d4db2d8b8bdfdb2e04
+      internalID: -550538208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_22
+      name: RocketPlayerFinal_19
       rect:
         serializedVersion: 2
         x: 256
@@ -593,35 +530,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2a76bef5d8dacc4ba5679ddc23a7404
-      internalID: -968199888
+      spriteID: 1b3bf78d39967a345ac2fcf901c1322d
+      internalID: -1735978361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_23
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 704b6c5e25357f24b9574633a5a6f55e
-      internalID: 48694092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KnifePlayerFinal_24
+      name: RocketPlayerFinal_20
       rect:
         serializedVersion: 2
         x: 0
@@ -635,14 +551,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 092c7b93cd385884bb1ba01bf1384ce8
-      internalID: -370690076
+      spriteID: 0c8726d835b90004a9beee743242bcf5
+      internalID: -1871508694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_25
+      name: RocketPlayerFinal_21
       rect:
         serializedVersion: 2
         x: 64
@@ -656,14 +572,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecb4c656bd65652498f8913a07f81365
-      internalID: -1221380176
+      spriteID: 3b7f3182801819d4982f3e1e003f489a
+      internalID: -137873838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_26
+      name: RocketPlayerFinal_22
       rect:
         serializedVersion: 2
         x: 128
@@ -677,14 +593,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49da90734420d2e4482c8b259c9ca340
-      internalID: -144069187
+      spriteID: a5c31ee143b293f4e841e1616a7c2dcc
+      internalID: -1906481210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_27
+      name: RocketPlayerFinal_23
       rect:
         serializedVersion: 2
         x: 192
@@ -698,14 +614,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6b0808d743031041b17d36d3294002a
-      internalID: -562039885
+      spriteID: 913934a64b6bb324a8313cccdff7fd01
+      internalID: 1898871606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_28
+      name: RocketPlayerFinal_24
       rect:
         serializedVersion: 2
         x: 256
@@ -719,35 +635,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec1ef56b888a24047a98c6fdceec2c20
-      internalID: 1175340577
+      spriteID: 731699ed276d83d4997942f1dc31b282
+      internalID: -1585625599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnifePlayerFinal_29
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 170b37d0be82ed044a73e2686b30e05d
-      internalID: 397076868
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KnifePlayerFinal_30
+      name: RocketPlayerFinal_25
       rect:
         serializedVersion: 2
         x: 0
@@ -761,92 +656,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 418463d65facbcc4697ebad2c9c52c7e
-      internalID: 2042739507
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KnifePlayerFinal_31
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3eb3dc0722521074b9047aed5fef4ade
-      internalID: -943829945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KnifePlayerFinal_32
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b944752172b70f04c9ef1053dfa81e2c
-      internalID: -2080478903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KnifePlayerFinal_33
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88d1015a7ed70c14fae477907c64daad
-      internalID: 212994619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KnifePlayerFinal_34
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe94809758f82fc46a0ec841d3ceffe3
-      internalID: 1606567317
+      spriteID: 0f08514db8930534a934a0d640173a25
+      internalID: 2014945445
       vertices: []
       indices: 
       edges: []
@@ -862,41 +673,32 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      KnifePlayerFinal_0: 2003697164
-      KnifePlayerFinal_1: 1869989484
-      KnifePlayerFinal_10: -5426380
-      KnifePlayerFinal_11: 1793015114
-      KnifePlayerFinal_12: 614670535
-      KnifePlayerFinal_13: 1297024609
-      KnifePlayerFinal_14: -1478015808
-      KnifePlayerFinal_15: 528681499
-      KnifePlayerFinal_16: -1484595853
-      KnifePlayerFinal_17: 12851757
-      KnifePlayerFinal_18: -2143938335
-      KnifePlayerFinal_19: -252194511
-      KnifePlayerFinal_2: -1012312776
-      KnifePlayerFinal_20: 316583603
-      KnifePlayerFinal_21: -57266796
-      KnifePlayerFinal_22: -968199888
-      KnifePlayerFinal_23: 48694092
-      KnifePlayerFinal_24: -370690076
-      KnifePlayerFinal_25: -1221380176
-      KnifePlayerFinal_26: -144069187
-      KnifePlayerFinal_27: -562039885
-      KnifePlayerFinal_28: 1175340577
-      KnifePlayerFinal_29: 397076868
-      KnifePlayerFinal_3: -164970006
-      KnifePlayerFinal_30: 2042739507
-      KnifePlayerFinal_31: -943829945
-      KnifePlayerFinal_32: -2080478903
-      KnifePlayerFinal_33: 212994619
-      KnifePlayerFinal_34: 1606567317
-      KnifePlayerFinal_4: -903831812
-      KnifePlayerFinal_5: -139905322
-      KnifePlayerFinal_6: -1295725902
-      KnifePlayerFinal_7: -788826558
-      KnifePlayerFinal_8: -928695428
-      KnifePlayerFinal_9: -1167289132
+      RocketPlayerFinal_0: -127174172
+      RocketPlayerFinal_1: 573384900
+      RocketPlayerFinal_10: 183230604
+      RocketPlayerFinal_11: 1062588130
+      RocketPlayerFinal_12: 2145309224
+      RocketPlayerFinal_13: 1983190620
+      RocketPlayerFinal_14: 503247406
+      RocketPlayerFinal_15: 1940545620
+      RocketPlayerFinal_16: -1288958519
+      RocketPlayerFinal_17: 1864659986
+      RocketPlayerFinal_18: -550538208
+      RocketPlayerFinal_19: -1735978361
+      RocketPlayerFinal_2: -163376497
+      RocketPlayerFinal_20: -1871508694
+      RocketPlayerFinal_21: -137873838
+      RocketPlayerFinal_22: -1906481210
+      RocketPlayerFinal_23: 1898871606
+      RocketPlayerFinal_24: -1585625599
+      RocketPlayerFinal_25: 2014945445
+      RocketPlayerFinal_3: -2066622183
+      RocketPlayerFinal_4: -122294898
+      RocketPlayerFinal_5: -1917089347
+      RocketPlayerFinal_6: -1416556443
+      RocketPlayerFinal_7: -769228555
+      RocketPlayerFinal_8: -428121649
+      RocketPlayerFinal_9: -244400960
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
