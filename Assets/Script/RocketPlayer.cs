@@ -105,14 +105,16 @@ public class RocketPlayer : MonoBehaviour
         isGrounded = true;
         //rest animate
         animator.SetBool("isJumping", false);
-        if (gameManager.numOfLives >= 0 && other.CompareTag("Enemy")) // Assuming enemy collision
-        {
-            // = true;  Set isHit to true when hit by an enemy
-            animator.SetTrigger("isHit"); // Trigger the isHit animation
-        }else if(gameManager.numOfLives < 0)
-        {
-            animator.SetTrigger("Dead");
-        }
+
+        // if (other.CompareTag("Enemy") && gameManager.numOfLives > 0) // Assuming enemy collision
+        // {
+        //     // = true;  Set isHit to true when hit by an enemy
+        //     animator.SetTrigger("isHit"); // Trigger the isHit animation
+        // }
+        // else if(gameManager.numOfLives == 0)
+        // {
+        //     animator.SetTrigger("Dead");
+        // }
     }
 
     void OnTriggerExit2D(Collider2D other)
