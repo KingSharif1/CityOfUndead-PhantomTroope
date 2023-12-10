@@ -104,11 +104,11 @@ public class KnifePlayer : MonoBehaviour
         //rest animate
         animator.SetBool("isJumping", false);
 
-        if (other.CompareTag("Enemy")) // Assuming enemy collision
-        {
-            // = true;  Set isHit to true when hit by an enemy
-            animator.SetTrigger("isHit"); // Trigger the isHit animation
-        }
+        // if (other.CompareTag("Enemy")) // Assuming enemy collision
+        // {
+        //     // = true;  Set isHit to true when hit by an enemy
+        //     animator.SetTrigger("isHit"); // Trigger the isHit animation
+        // }
 
     }
 
