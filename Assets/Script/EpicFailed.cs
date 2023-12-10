@@ -21,14 +21,17 @@ public class EpicFailed : MonoBehaviour
             isColliding = true;
             if(gameManager.numOfLives == 0)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-                Debug.Log("GGs buddy");
+                Animator playerAnimator = other.gameObject.GetComponent<Animator>();
+                playerAnimator.SetTrigger("Dead");
+
+                StartCoroutine(ReloadSceneAfterDeath(playerAnimator));
             }
-            else
+            else if(gameManager.numOfLives > 0)
             {
+
                 gameManager.numOfLives--;
-                other.gameObject.transform.position = gameManager.spawnPoint;
-                Debug.Log("nice try buddy");
+                other.gameObject.GetComponent<Animator>().SetTrigger("isHit");
+                Debug.Log("ik that hurt");
             }
             StartCoroutine(Reset());
 
@@ -37,8 +40,16 @@ public class EpicFailed : MonoBehaviour
 
     IEnumerator Reset()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         isColliding = false;
+    }
+
+    IEnumerator ReloadSceneAfterDeath(Animator playerAnimator)
+    {
+        yield return new WaitForSeconds(1); // Adjust the delay time as needed
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Debug.Log("GGs buddy");
     }
 
 }

@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 658086381309072234}
   - component: {fileID: 658086381309072237}
   - component: {fileID: 6139604069914004617}
-  - component: {fileID: 5897707308115808072}
+  - component: {fileID: 278712176}
   m_Layer: 0
   m_Name: KnifePlayer
   m_TagString: Player
@@ -34,7 +34,7 @@ Transform:
   m_GameObject: {fileID: 658086381309072209}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.182, y: 0.023507118, z: 0}
-  m_LocalScale: {x: 1.249, y: 1.3642, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 658086382258086674}
@@ -128,8 +128,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.072139755, y: -0.15977523}
-  m_Size: {x: 1.0091702, y: 1.1038452}
+  m_Offset: {x: 0.20086849, y: -0.16171002}
+  m_Size: {x: 1.3735607, y: 1.4393053}
   m_Direction: 0
 --- !u!50 &658086381309072232
 Rigidbody2D:
@@ -165,9 +165,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.040513, y: -0.68640155}
+  m_Offset: {x: 0.29830962, y: -0.87027705}
   serializedVersion: 2
-  m_Radius: 0.1365156
+  m_Radius: 0.22246203
 --- !u!82 &658086381309072234
 AudioSource:
   m_ObjectHideFlags: 0
@@ -178,17 +178,17 @@ AudioSource:
   m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9626d6cc35bb93b4c8c6e9293e59c0d3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1abe904a52f53284990c37e92ad7385d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.472
+  m_Volume: 0.343
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 131
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.9995888
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -297,20 +297,20 @@ MonoBehaviour:
   firePoint: {fileID: 3323413140506945592}
   fireForward: 1
   bulletForce: 958
---- !u!114 &5897707308115808072
+--- !u!114 &278712176
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 658086381309072209}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44a1259169a89c54fa25c6af45359f98, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a5b70c91c3e4f34cad02838912b1a7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
-  jumpForce: 10
+  jumpForce: 20
   isGrounded: 0
   shouldJump: 0
 --- !u!1 &658086382258086677
@@ -421,7 +421,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3323413140506945592}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.25, z: 0}
+  m_LocalPosition: {x: 0.138, y: -0.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
