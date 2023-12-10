@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: 1954136837}
   m_Layer: 0
   m_Name: RocketPlayerFinal_0
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -231,9 +231,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.040513, y: -0.68640155}
+  m_Offset: {x: -0.056934655, y: -1.1274455}
   serializedVersion: 2
-  m_Radius: 0.1365156
+  m_Radius: 0.47420523
 --- !u!70 &1954136841
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -247,8 +247,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.072139755, y: -0.15977523}
-  m_Size: {x: 1.0091702, y: 1.1038452}
+  m_Offset: {x: -0.012152791, y: -0.04503846}
+  m_Size: {x: 1.2986333, y: 2.4548893}
   m_Direction: 0
 --- !u!82 &1954136838
 AudioSource:
