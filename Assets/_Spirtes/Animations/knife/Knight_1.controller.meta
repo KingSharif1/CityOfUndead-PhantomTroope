@@ -1,8 +1,19 @@
 fileFormatVersion: 2
-guid: 0854278aad7bf3c4aae48e7c7c36fbf2
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/_Spirtes/Animations/knife/Knight_1.controller.meta
+guid: 99091a19e9643984ab4380d83418fe27
+========
+guid: 41f5d5e62605d6c4eb538d1e3c4c7906
+>>>>>>>> d14207aabdac2810647ac1659a78674f51cda58c:Assets/_Ties/Cliffs_Tile_Map_10.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000
+=======
+guid: 2711e1d159cfb104388c8f520f121f6c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+>>>>>>> d14207aabdac2810647ac1659a78674f51cda58c
   userData: 
   assetBundleName: 
   assetBundleVariant: 

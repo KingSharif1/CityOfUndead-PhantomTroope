@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/_Ties/Cliffs_Tile_Map_12.asset.meta
 guid: 89c527451d5f0634ea29dd4dcafb3f06
+========
+guid: 4346978c972e904408713f16c721c332
+>>>>>>>> d14207aabdac2810647ac1659a78674f51cda58c:Assets/_Ties/Cliffs_Tile_Map_13.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000
