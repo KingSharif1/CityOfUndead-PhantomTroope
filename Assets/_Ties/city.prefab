@@ -41,7 +41,7 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4647573142600270917}
   m_Enabled: 1
-  m_CellSize: {x: 1, y: 1, z: 0}
+  m_CellSize: {x: 2.24, y: 2.56, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
@@ -87,11 +87,79 @@ Tilemap:
   m_GameObject: {fileID: 8999294585612664455}
   m_Enabled: 1
   m_Tiles:
+  - first: {x: 0, y: -4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 15
+      m_TileSpriteIndex: 12
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 1, y: -4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 16
+      m_TileSpriteIndex: 13
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -1, y: -3, z: 0}
     second:
       serializedVersion: 2
+<<<<<<< Updated upstream:Assets/_Ties/city.prefab
       m_TileIndex: 12
       m_TileSpriteIndex: 12
+=======
+      m_TileIndex: 6
+      m_TileSpriteIndex: 4294967295
+<<<<<<< Updated upstream
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 0, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 11
+      m_TileSpriteIndex: 8
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 1, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 12
+      m_TileSpriteIndex: 9
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 2, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 13
+      m_TileSpriteIndex: 10
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 3, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 11
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes:Assets/_Ties/trees.prefab
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -100,8 +168,14 @@ Tilemap:
   - first: {x: -1, y: -2, z: 0}
     second:
       serializedVersion: 2
+<<<<<<< Updated upstream:Assets/_Ties/city.prefab
       m_TileIndex: 8
       m_TileSpriteIndex: 8
+=======
+      m_TileIndex: 3
+      m_TileSpriteIndex: 4294967295
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes:Assets/_Ties/trees.prefab
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -141,7 +215,9 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileSpriteIndex: 2
+=======
+>>>>>>> Stashed changes
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -151,7 +227,31 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 5
-      m_TileSpriteIndex: 5
+<<<<<<< Updated upstream
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 2, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 9
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 3, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 10
+      m_TileSpriteIndex: 7
+=======
+      m_TileSpriteIndex: 4294967295
+>>>>>>> Stashed changes
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -181,7 +281,8 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileSpriteIndex: 4294967295
+<<<<<<< Updated upstream
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -191,7 +292,9 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 6
+=======
+>>>>>>> Stashed changes
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -201,7 +304,31 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 2
-      m_TileSpriteIndex: 2
+<<<<<<< Updated upstream
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 2, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 7
+      m_TileSpriteIndex: 4
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 3, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 8
+      m_TileSpriteIndex: 3
+=======
+      m_TileSpriteIndex: 4294967295
+>>>>>>> Stashed changes
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -220,6 +347,7 @@ Tilemap:
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 1
+<<<<<<< Updated upstream:Assets/_Ties/city.prefab
     m_Data: {fileID: 11400000, guid: 9bb6cc6ae23979945920a7e7d10187e1, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 1bce40af2d4701b4382b8443c9db0d5f, type: 2}
@@ -245,8 +373,55 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 64716e57c5fd91b41b8ec21ad0ebdd6a, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 33b6296205a4bc341b46af25fda5abbe, type: 2}
-  m_TileSpriteArray:
+=======
+    m_Data: {fileID: 11400000, guid: d63fda7d1e6c1494082cb5caeb61892c, type: 2}
+<<<<<<< Updated upstream
   - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 29309055b49758846b174432e6e048de, type: 2}
+=======
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+>>>>>>> Stashed changes
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 0e31568b887f80c43a8438096becb13e, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: f8ca2e415e9eccd47a02b51ca77a1672, type: 2}
+<<<<<<< Updated upstream
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: ef63acfabf555264684c7a4ea4461efb, type: 2}
+=======
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+>>>>>>> Stashed changes
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: b121752806ea37e41bf68f418f820809, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: ff6f0d9d1b03384488f7c8c6225711a7, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 76de2524a55ec6c4db924ba2d04d8781, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: dd69374f6214d40449a09354edf1ab34, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: f49f89c32be9c0e4f8b66da6de1ff4c9, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 5d261b20bcf549744af5ab7a5f56e287, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 5661d3976f871ad45a079539cc54099a, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 6ca063317681e244d8f1399aeeb2c354, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 41f5d5e62605d6c4eb538d1e3c4c7906, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: aabc62048edcfce448539adba9d753e5, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 89c527451d5f0634ea29dd4dcafb3f06, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 4346978c972e904408713f16c721c332, type: 2}
+>>>>>>> Stashed changes:Assets/_Ties/trees.prefab
+  m_TileSpriteArray:
+<<<<<<< Updated upstream
+  - m_RefCount: 1
+<<<<<<< Updated upstream:Assets/_Ties/city.prefab
     m_Data: {fileID: 187631968, guid: cb8fa22adc520514db6f7404bf6951bf, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -1660017119, guid: cb8fa22adc520514db6f7404bf6951bf, type: 3}
@@ -274,6 +449,43 @@ Tilemap:
     m_Data: {fileID: -1771544132, guid: cb8fa22adc520514db6f7404bf6951bf, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 13
+=======
+    m_Data: {fileID: -869430118, guid: 0611508dd82d8f84eb863c5e50c9b1a2, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 1248378517, guid: 0611508dd82d8f84eb863c5e50c9b1a2, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 1618839111, guid: 0611508dd82d8f84eb863c5e50c9b1a2, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -307857948, guid: 0611508dd82d8f84eb863c5e50c9b1a2, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 8173420, guid: 0611508dd82d8f84eb863c5e50c9b1a2, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 2080272645, guid: 0611508dd82d8f84eb863c5e50c9b1a2, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 60171113, guid: 0611508dd82d8f84eb863c5e50c9b1a2, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 550519392, guid: 0611508dd82d8f84eb863c5e50c9b1a2, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -838033998, guid: 0611508dd82d8f84eb863c5e50c9b1a2, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 304790584, guid: 0611508dd82d8f84eb863c5e50c9b1a2, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -1007211113, guid: 0611508dd82d8f84eb863c5e50c9b1a2, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -700704234, guid: 0611508dd82d8f84eb863c5e50c9b1a2, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -1590278992, guid: 0611508dd82d8f84eb863c5e50c9b1a2, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 1381682581, guid: 0611508dd82d8f84eb863c5e50c9b1a2, type: 3}
+  m_TileMatrixArray:
+  - m_RefCount: 17
+=======
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  m_TileMatrixArray:
+  - m_RefCount: 5
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes:Assets/_Ties/trees.prefab
     m_Data:
       e00: 1
       e01: 0
@@ -292,13 +504,26 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
+<<<<<<< Updated upstream:Assets/_Ties/city.prefab
   - m_RefCount: 13
+=======
+<<<<<<< Updated upstream
+  - m_RefCount: 17
+=======
+  - m_RefCount: 5
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes:Assets/_Ties/trees.prefab
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+<<<<<<< Updated upstream:Assets/_Ties/city.prefab
   m_Origin: {x: -1, y: -3, z: 0}
   m_Size: {x: 4, y: 4, z: 1}
+=======
+  m_Origin: {x: -1, y: -4, z: 0}
+  m_Size: {x: 5, y: 4, z: 1}
+>>>>>>> Stashed changes:Assets/_Ties/trees.prefab
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -367,7 +592,15 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+<<<<<<< Updated upstream:Assets/_Ties/city.prefab
 --- !u!114 &8814049788166807769
+=======
+<<<<<<< Updated upstream
+--- !u!114 &2451263814924712792
+=======
+--- !u!114 &4838787662346796632
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes:Assets/_Ties/trees.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

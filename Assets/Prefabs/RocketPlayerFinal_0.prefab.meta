@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Prefabs/RocketPlayerFinal_0.prefab.meta
 guid: 327bc22ece1882c44bae336e6722eb07
+========
+guid: 86255e5ddbc3307488cf853301461c34
+>>>>>>>> Stashed changes:Assets/Prefabs/KnightdaPlayer.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 
