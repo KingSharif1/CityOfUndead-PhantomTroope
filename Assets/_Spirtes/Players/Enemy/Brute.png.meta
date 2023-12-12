@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
 guid: b464b8688b67b8644a8752699d1288ce
+========
+guid: 98ff31c14de7feb4087519b8027d9fbb
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,6 +121,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_0
       rect:
         serializedVersion: 2
@@ -124,6 +129,15 @@ TextureImporter:
         y: 537
         width: 7
         height: 16
+========
+      name: Knight_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 693
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,13 +145,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: bab7f23d0fd456a4ca94726b5a227686
       internalID: -1378363050
+========
+      spriteID: d500385ef091bcb4e9284418d853dff6
+      internalID: -1039415763
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_1
       rect:
         serializedVersion: 2
@@ -145,6 +165,14 @@ TextureImporter:
         y: 537
         width: 7
         height: 14
+========
+      name: Knight_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 693
+        width: 79
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,13 +180,125 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0cf6508bf7778f4b8940a0c0d13518d
-      internalID: 1580546986
+      spriteID: 90f20b465ffa41d4a82c35d051717479
+      internalID: 1753916439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+      name: Knight_2
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f3574f6f9ef3a45bbea7497cfe116b
+      internalID: 2083404732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_3
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4a5a577b28b3f44ae54da0bbeba265
+      internalID: 2103424230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_4
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adebe2e383890124192c15aaebc34bac
+      internalID: 265297961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_5
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c7b64b31e3a2f4aaf085eeebb8d20c
+      internalID: -1435975551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_6
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 693
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
+      spriteID: e0cf6508bf7778f4b8940a0c0d13518d
+      internalID: 1580546986
+========
+      spriteID: f478c8c9c055b4d4ebb14fd781c0b863
+      internalID: 1613841345
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_2
       rect:
         serializedVersion: 2
@@ -166,6 +306,15 @@ TextureImporter:
         y: 537
         width: 5
         height: 11
+========
+      name: Knight_7
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 693
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,13 +322,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: d98b66e8f7ee0e94abd21aad203b5f35
       internalID: -1585600922
+========
+      spriteID: bd7e15339a8c31e43bf714e8ee8e0ebe
+      internalID: 464777927
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_3
       rect:
         serializedVersion: 2
@@ -187,6 +342,14 @@ TextureImporter:
         y: 537
         width: 4
         height: 5
+========
+      name: Knight_8
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 693
+        width: 79
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,13 +357,146 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46b4ce218629a254fb91939e9119bc93
-      internalID: 190207182
+      spriteID: 83b46dd8d81cc44409a2cb27cf6500a7
+      internalID: 1084107569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+      name: Knight_9
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63885fbf91a59045a3a084b2c652d04
+      internalID: -1913891630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_10
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e08fab39a9d27419ca222e195f3171
+      internalID: 1145012626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_11
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c6ac907fe9f644c93c9d91d907254c
+      internalID: -2076398434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_12
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d627db26a0795fc40aee5ee84586fb52
+      internalID: -540319601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_13
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310a3f38a78a399448e22d82c340cc4f
+      internalID: 873668469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
+      spriteID: 46b4ce218629a254fb91939e9119bc93
+      internalID: 190207182
+========
+      spriteID: c76ad6523abc0c54fad53f5edea11d89
+      internalID: 221155953
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_4
       rect:
         serializedVersion: 2
@@ -208,6 +504,15 @@ TextureImporter:
         y: 537
         width: 9
         height: 17
+========
+      name: Knight_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 630
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,13 +520,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 9d963018a75e63d45aba57c2a7427032
       internalID: -2120314972
+========
+      spriteID: 6b8815e58d7cc05479244ee01685142a
+      internalID: -1679357180
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_5
       rect:
         serializedVersion: 2
@@ -229,6 +540,15 @@ TextureImporter:
         y: 537
         width: 8
         height: 13
+========
+      name: Knight_16
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 630
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,13 +556,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: ec58a598aba6ff34cb0b568e9728a882
       internalID: 1412477721
+========
+      spriteID: 078e9ae30f398384c9d05b4744ba4bb2
+      internalID: -942183832
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_6
       rect:
         serializedVersion: 2
@@ -250,6 +576,15 @@ TextureImporter:
         y: 537
         width: 8
         height: 11
+========
+      name: Knight_17
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 630
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,13 +592,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 2cedc1c97adce614387901d3009fa8a0
       internalID: -230691950
+========
+      spriteID: 39db6360bace0064eaa311f0f9cf16dc
+      internalID: 1190783877
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_7
       rect:
         serializedVersion: 2
@@ -271,6 +612,15 @@ TextureImporter:
         y: 537
         width: 4
         height: 6
+========
+      name: Knight_18
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 630
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,13 +628,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 367d69e334c70b24f92917c35dec8102
       internalID: 930101306
+========
+      spriteID: 93fc022a7dbab9e438f5d830b79e07c9
+      internalID: -1673766386
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_8
       rect:
         serializedVersion: 2
@@ -292,6 +648,15 @@ TextureImporter:
         y: 462
         width: 23
         height: 37
+========
+      name: Knight_19
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 630
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,13 +664,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: f412937a9db680446960035fce5af7ca
       internalID: 647452376
+========
+      spriteID: 79c09305471d7814893eb994049aac0d
+      internalID: -1129637233
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_9
       rect:
         serializedVersion: 2
@@ -313,6 +684,15 @@ TextureImporter:
         y: 462
         width: 25
         height: 36
+========
+      name: Knight_20
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 630
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,13 +700,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 8f10f098eeae9894982089cf3f6eeb17
       internalID: 1535666552
+========
+      spriteID: 77c508bf69451844a82a3a7c2ba5149d
+      internalID: 719749861
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_10
       rect:
         serializedVersion: 2
@@ -334,6 +720,15 @@ TextureImporter:
         y: 462
         width: 25
         height: 36
+========
+      name: Knight_21
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 630
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,13 +736,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: a676ba9c71316db4bb3ea13b9d14a900
       internalID: 1648706203
+========
+      spriteID: 2e2baac8085385c45874c7f5a573bceb
+      internalID: -1142512879
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_11
       rect:
         serializedVersion: 2
@@ -355,6 +756,14 @@ TextureImporter:
         y: 462
         width: 28
         height: 37
+========
+      name: Knight_22
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 630
+        width: 79
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,13 +771,125 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a0b62d3aae88a3499d6f3a0bce2830a
-      internalID: -541570795
+      spriteID: 33879be93e2b0fa43b6677416468c83b
+      internalID: -1470230483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+      name: Knight_23
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 630
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dade5c201c19c5b469b0cb0cbf278fad
+      internalID: 870882973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_24
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 630
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b5b12449732f54b9cdaf068942f84d
+      internalID: -232980884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_25
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 630
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2219e5887b3ee854c8527b918dc19803
+      internalID: -1690852807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_26
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 630
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8957536a17571314ca28eabf483e4a10
+      internalID: 1255014209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 567
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
+      spriteID: 5a0b62d3aae88a3499d6f3a0bce2830a
+      internalID: -541570795
+========
+      spriteID: 090224cd3e7fbf34aa3ba8ce79b5cada
+      internalID: -1768878322
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_12
       rect:
         serializedVersion: 2
@@ -376,6 +897,15 @@ TextureImporter:
         y: 462
         width: 28
         height: 38
+========
+      name: Knight_28
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 567
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,13 +913,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 7126e287279172240ae87fc5ce7c6b83
       internalID: -924287859
+========
+      spriteID: 7d7ede6964631714ea0dfe0082adae71
+      internalID: 644007059
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_13
       rect:
         serializedVersion: 2
@@ -397,6 +933,15 @@ TextureImporter:
         y: 462
         width: 27
         height: 37
+========
+      name: Knight_29
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 567
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,13 +949,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 447927a3fa4d96143b5b3f034f2c4f21
       internalID: 1285943496
+========
+      spriteID: 9a7de378c48ce3c498f3ef8ba54a51cc
+      internalID: -1013297850
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_14
       rect:
         serializedVersion: 2
@@ -418,6 +969,15 @@ TextureImporter:
         y: 462
         width: 27
         height: 37
+========
+      name: Knight_30
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 567
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -425,13 +985,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: cb8240b70f243304e885362e9077fdd0
       internalID: 1482711763
+========
+      spriteID: 9eee669811227b94799d0a52bbc2e3e2
+      internalID: 656487356
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_15
       rect:
         serializedVersion: 2
@@ -439,6 +1005,15 @@ TextureImporter:
         y: 462
         width: 30
         height: 38
+========
+      name: Knight_31
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 567
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,13 +1021,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 98bd091c9b68b544dbe6d23cd27b58b5
       internalID: -894962496
+========
+      spriteID: 59e1c5c6ae83dba418ad105433959609
+      internalID: -477291627
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_16
       rect:
         serializedVersion: 2
@@ -460,6 +1041,15 @@ TextureImporter:
         y: 398
         width: 30
         height: 38
+========
+      name: Knight_32
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 567
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -467,13 +1057,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 7801b878b6b6a564d8471b9ca718de63
       internalID: 1457627427
+========
+      spriteID: c1487b13d61c9ce49a0436d1ad2ec256
+      internalID: 1030959118
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_17
       rect:
         serializedVersion: 2
@@ -481,6 +1077,15 @@ TextureImporter:
         y: 398
         width: 27
         height: 37
+========
+      name: Knight_33
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 567
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,13 +1093,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 6e00ea024e1e96b46b508a225cede6ab
       internalID: -618123487
+========
+      spriteID: 6c019794400aea54a93d139662177745
+      internalID: -700934370
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_18
       rect:
         serializedVersion: 2
@@ -502,6 +1113,15 @@ TextureImporter:
         y: 398
         width: 28
         height: 37
+========
+      name: Knight_34
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 567
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -509,13 +1129,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: edb474b35bfef4c4f81e6798970bbc3f
       internalID: 2004772097
+========
+      spriteID: 2f548f928b76a074496497a6a68db23b
+      internalID: 1567124524
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_19
       rect:
         serializedVersion: 2
@@ -523,6 +1149,14 @@ TextureImporter:
         y: 398
         width: 30
         height: 38
+========
+      name: Knight_35
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 567
+        width: 79
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -530,13 +1164,146 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34e968aa9aeecd04dbc5b89ce88931f5
-      internalID: -2064890943
+      spriteID: 0aed38502a844224db7d7810ee8ca4d2
+      internalID: -1384135531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+      name: Knight_36
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 567
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870c59a6a178c7e42908e748875ffb14
+      internalID: -1833890928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_37
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 567
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547fccb082fe290439d7e423564c60ca
+      internalID: 418966059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_38
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 567
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b63a3b218a4744faee9415b3f083b3
+      internalID: -200817782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_39
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 567
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b24f576c3ca744a9ef5430ab887712
+      internalID: 441034700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_40
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 567
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ccd2128a6cb6f40bdbb1e49374cbc7
+      internalID: 378741137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
+      spriteID: 34e968aa9aeecd04dbc5b89ce88931f5
+      internalID: -2064890943
+========
+      spriteID: 7a1e05c7e25cbfa479859e66b3c08255
+      internalID: -1234248907
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_20
       rect:
         serializedVersion: 2
@@ -544,6 +1311,15 @@ TextureImporter:
         y: 398
         width: 34
         height: 37
+========
+      name: Knight_42
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 504
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -551,13 +1327,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: fe4d81cb00f23ec4d85a435a27c29788
       internalID: -171791696
+========
+      spriteID: fb01b26f135e8ba45ad6b1930294836f
+      internalID: 625298451
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_21
       rect:
         serializedVersion: 2
@@ -565,6 +1347,15 @@ TextureImporter:
         y: 398
         width: 33
         height: 37
+========
+      name: Knight_43
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 504
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -572,13 +1363,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: ec37d79de727f7d40b47c3d4ff9753cb
       internalID: 944466695
+========
+      spriteID: 1ab52d68a18095a4d8487c81b71a1da3
+      internalID: -475517195
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_22
       rect:
         serializedVersion: 2
@@ -586,6 +1383,15 @@ TextureImporter:
         y: 398
         width: 34
         height: 37
+========
+      name: Knight_44
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 504
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -593,13 +1399,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 485656fcbe3698c418604c702ce626f0
       internalID: 113157736
+========
+      spriteID: 4d4709fcfe432bf46906ad3f5961d5ff
+      internalID: -367543056
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_23
       rect:
         serializedVersion: 2
@@ -607,6 +1419,15 @@ TextureImporter:
         y: 398
         width: 28
         height: 39
+========
+      name: Knight_45
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 504
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -614,13 +1435,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 52b529d6ff1083747a16acf7ad9bed68
       internalID: -1882005129
+========
+      spriteID: 334283ba467257445baa219078140b51
+      internalID: 429423613
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_24
       rect:
         serializedVersion: 2
@@ -628,6 +1455,15 @@ TextureImporter:
         y: 334
         width: 32
         height: 40
+========
+      name: Knight_46
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 504
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,13 +1471,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 38fc8523e17950f488204bab77321efc
       internalID: -1842355714
+========
+      spriteID: 7a0a5c3372dc76b43bee6349ab292047
+      internalID: -1011382743
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_25
       rect:
         serializedVersion: 2
@@ -649,6 +1491,15 @@ TextureImporter:
         y: 334
         width: 36
         height: 38
+========
+      name: Knight_47
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 504
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,13 +1507,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 4bb394ecaedee82419bcd8cb98aae966
       internalID: -1170719310
+========
+      spriteID: f2b0248516e569d4badbea102b2c08e4
+      internalID: -751226801
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_26
       rect:
         serializedVersion: 2
@@ -670,6 +1527,14 @@ TextureImporter:
         y: 334
         width: 28
         height: 43
+========
+      name: Knight_48
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 504
+        width: 79
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -677,13 +1542,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a560757bf7dae145a4d9ba16ba02b86
-      internalID: 843343191
+      spriteID: f3371d587c1aad74aae79263a7de1029
+      internalID: -1360581748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+      name: Knight_49
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 504
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ae91bdbb8d66a40bb0c4219f6b1a6a
+      internalID: -950028092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_50
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 504
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008522a942e8e7d41a61247b34981fbc
+      internalID: -1388448462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 441
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
+      spriteID: 7a560757bf7dae145a4d9ba16ba02b86
+      internalID: 843343191
+========
+      spriteID: 58ec23b462c2e7f4bb7c604a2d755ec2
+      internalID: -478283822
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_27
       rect:
         serializedVersion: 2
@@ -691,6 +1626,15 @@ TextureImporter:
         y: 334
         width: 32
         height: 38
+========
+      name: Knight_52
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 441
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -698,13 +1642,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 1285c15913ea53841b1c90b5185ab454
       internalID: -1848919496
+========
+      spriteID: 7b1be44465f8f0a489603cb15a045f2c
+      internalID: 1671386184
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_28
       rect:
         serializedVersion: 2
@@ -838,6 +1788,15 @@ TextureImporter:
         y: 275
         width: 6
         height: 6
+========
+      name: Knight_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -845,13 +1804,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 56f3d0ee90d14de4cace67e73adf9ac6
       internalID: -358093705
+========
+      spriteID: 6cf53d110ac9de04da5ff9f6cd06b300
+      internalID: -204799901
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_35
       rect:
         serializedVersion: 2
@@ -859,6 +1824,15 @@ TextureImporter:
         y: 270
         width: 23
         height: 26
+========
+      name: Knight_54
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 378
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -866,13 +1840,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 2ae2dc87643dcce45a18730dbcef08bf
       internalID: -2032535906
+========
+      spriteID: 8a6ac1d9f76e48348838bd0b26edee6a
+      internalID: -1755343547
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_36
       rect:
         serializedVersion: 2
@@ -880,6 +1860,15 @@ TextureImporter:
         y: 270
         width: 21
         height: 21
+========
+      name: Knight_55
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 378
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -887,13 +1876,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 28eafc35c84422e419a83a5bb7165e6d
       internalID: -657502792
+========
+      spriteID: e1eb4cfb1fb4549468b7ab963525fdab
+      internalID: -1566189958
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_37
       rect:
         serializedVersion: 2
@@ -901,6 +1896,15 @@ TextureImporter:
         y: 270
         width: 25
         height: 15
+========
+      name: Knight_56
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 378
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -908,13 +1912,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 1feb9c8c998f5fc48a34b2d61e98d10f
       internalID: 1991512237
+========
+      spriteID: 0045e2b2441bd914fafd71ce1bbbb9f6
+      internalID: 732573486
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_38
       rect:
         serializedVersion: 2
@@ -922,6 +1932,15 @@ TextureImporter:
         y: 270
         width: 21
         height: 10
+========
+      name: Knight_57
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 378
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -929,13 +1948,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 0b34d85ba5b2b2f498dfe964ea723892
       internalID: 681484033
+========
+      spriteID: f753bc73b38cd8d4db8d488ba2397a88
+      internalID: 2014314811
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_39
       rect:
         serializedVersion: 2
@@ -1006,6 +2031,15 @@ TextureImporter:
         y: 206
         width: 27
         height: 36
+========
+      name: Knight_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1013,13 +2047,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 88ba2e682ef57b043b7eb76f8c78b8f0
       internalID: 302993973
+========
+      spriteID: 5ffc88131764d6c41b4c1edf4a841617
+      internalID: 1206097241
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_43
       rect:
         serializedVersion: 2
@@ -1027,6 +2067,15 @@ TextureImporter:
         y: 206
         width: 29
         height: 36
+========
+      name: Knight_59
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 315
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1034,13 +2083,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: e0732109561256142a71710c16bc6dd2
       internalID: -612481680
+========
+      spriteID: eecbf9bfc75b49244807d6690ee08bc6
+      internalID: 46693966
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_44
       rect:
         serializedVersion: 2
@@ -1048,6 +2103,15 @@ TextureImporter:
         y: 206
         width: 25
         height: 36
+========
+      name: Knight_60
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 315
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1055,13 +2119,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: e9b1d9513f61ed0438979436b2f1d886
       internalID: 1438118881
+========
+      spriteID: de3608f67d6b4ff4b829e813f24da9b3
+      internalID: 1038715462
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_45
       rect:
         serializedVersion: 2
@@ -1069,6 +2139,15 @@ TextureImporter:
         y: 206
         width: 34
         height: 37
+========
+      name: Knight_61
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 315
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1076,13 +2155,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: f28c1c048f7ed0048b6218faf2698e80
       internalID: 817299348
+========
+      spriteID: dcf9aecd04fb5c14aba6df5ace0ad605
+      internalID: -1802414449
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_46
       rect:
         serializedVersion: 2
@@ -1090,6 +2175,15 @@ TextureImporter:
         y: 207
         width: 31
         height: 35
+========
+      name: Knight_62
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 315
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1097,13 +2191,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: adbb3c3dd04ef79488624e0dade225a8
       internalID: -353589883
+========
+      spriteID: 9dd0375c6353a03458c73b7c68b5dc1f
+      internalID: 1749589868
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_47
       rect:
         serializedVersion: 2
@@ -1111,6 +2211,15 @@ TextureImporter:
         y: 207
         width: 33
         height: 34
+========
+      name: Knight_63
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 315
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1118,13 +2227,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 6ae88c363914ff746982adeee4051711
       internalID: 1032734541
+========
+      spriteID: bfe8b68c11998c64badb4ec89bcca453
+      internalID: -528164640
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_48
       rect:
         serializedVersion: 2
@@ -1174,6 +2289,15 @@ TextureImporter:
         y: 142
         width: 27
         height: 37
+========
+      name: Knight_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1181,13 +2305,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: bebc978bff3e0ce42944c24dbb9d7364
       internalID: 549648993
+========
+      spriteID: 4fb2a6c227895264fac25bea33ad2c1d
+      internalID: -1880067250
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_51
       rect:
         serializedVersion: 2
@@ -1195,6 +2325,15 @@ TextureImporter:
         y: 142
         width: 30
         height: 37
+========
+      name: Knight_65
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 252
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1202,13 +2341,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 6e5fdc908f5d41540ad8c5a503bebc49
       internalID: -159999274
+========
+      spriteID: b5cbf9a6c063ee54f85e7b96141720cb
+      internalID: -1433677607
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_52
       rect:
         serializedVersion: 2
@@ -1216,6 +2361,15 @@ TextureImporter:
         y: 143
         width: 31
         height: 35
+========
+      name: Knight_66
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 252
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1223,13 +2377,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: e9a06b4f74f08b043acda43545429111
       internalID: -1378095422
+========
+      spriteID: 92ce76941453dad4fbb4004f98a81c03
+      internalID: 1033561398
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_53
       rect:
         serializedVersion: 2
@@ -1237,6 +2397,15 @@ TextureImporter:
         y: 143
         width: 33
         height: 34
+========
+      name: Knight_67
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 252
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1244,13 +2413,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: bb51311d9fc31df499ca02c89bae16f0
       internalID: 1619242706
+========
+      spriteID: 896b7b600b2f2f440bcbbdaaff489195
+      internalID: 1549368583
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_54
       rect:
         serializedVersion: 2
@@ -1321,6 +2496,15 @@ TextureImporter:
         y: 78
         width: 30
         height: 37
+========
+      name: Knight_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1328,13 +2512,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 09a1e9ce5299898489da088aecf3fd3f
       internalID: 1647281819
+========
+      spriteID: 9bc1611b2b6dc9b4eaa24a6aa036c024
+      internalID: 936820747
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_58
       rect:
         serializedVersion: 2
@@ -1342,6 +2532,15 @@ TextureImporter:
         y: 78
         width: 33
         height: 38
+========
+      name: Knight_69
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 189
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1349,13 +2548,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 3a4eeb07720a8144991a6274feab34ac
       internalID: 1937596106
+========
+      spriteID: 69304edd87e2f0a40859cc3f8ad50256
+      internalID: 1673373438
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_59
       rect:
         serializedVersion: 2
@@ -1363,6 +2568,15 @@ TextureImporter:
         y: 78
         width: 41
         height: 40
+========
+      name: Knight_70
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 189
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1370,13 +2584,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: dac94e2cb12ff714a937634cb0ed1531
       internalID: -1962343173
+========
+      spriteID: 2bfa3af42d342c84193a181be75e567c
+      internalID: 2019613355
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_60
       rect:
         serializedVersion: 2
@@ -1384,6 +2604,15 @@ TextureImporter:
         y: 78
         width: 43
         height: 36
+========
+      name: Knight_71
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 189
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1391,13 +2620,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: ac962a52e5683624f82d9be3cc35047e
       internalID: 1925054155
+========
+      spriteID: 28ca5ef84cd12d9449c50390c48d68e9
+      internalID: 1830668390
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_61
       rect:
         serializedVersion: 2
@@ -1405,6 +2640,15 @@ TextureImporter:
         y: 78
         width: 21
         height: 37
+========
+      name: Knight_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1412,13 +2656,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 5227903ef49a01e42a83d5c59b23eae7
       internalID: 718513629
+========
+      spriteID: a8e3c9d6d903b2f4cafd10e37aac44d1
+      internalID: 675594260
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_62
       rect:
         serializedVersion: 2
@@ -1426,6 +2676,15 @@ TextureImporter:
         y: 78
         width: 34
         height: 39
+========
+      name: Knight_73
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 126
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1433,13 +2692,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: a1b31a79bbad04c4dbf5dc37cded12e5
       internalID: -507658732
+========
+      spriteID: 3576b8397d226b44f8c07519f0b077c5
+      internalID: -1183549908
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_63
       rect:
         serializedVersion: 2
@@ -1447,6 +2712,15 @@ TextureImporter:
         y: 78
         width: 41
         height: 40
+========
+      name: Knight_74
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 126
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1454,13 +2728,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 36e7f6167859c4b4fb9a23458334da45
       internalID: -1213025269
+========
+      spriteID: b18c77d08614354438f72e7e8138b5ed
+      internalID: -1140232016
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_64
       rect:
         serializedVersion: 2
@@ -1468,6 +2748,14 @@ TextureImporter:
         y: 78
         width: 43
         height: 37
+========
+      name: Knight_75
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 126
+        width: 79
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1475,13 +2763,209 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3162e7556e927b43a64ce2665a7ce27
-      internalID: 2002754338
+      spriteID: 6fba900ff6aa9ce4bab611d1f7148f37
+      internalID: -1575197439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+      name: Knight_76
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 126
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac10ea996a3f02b46b1d09564f695bdc
+      internalID: -1835889330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_77
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 126
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780756be54473884195b266fb29b53f3
+      internalID: 55344256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac4059b57dbf2941a4ea5bbeed9e40b
+      internalID: 1855352768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_79
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 63
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48888ef906bb2d249ba14d6db1affd84
+      internalID: 653878466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_80
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 63
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19171e0d93f93904e944b9ec122bed50
+      internalID: 232386723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_81
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 63
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3aa57ededdc7284daeacf8ed6a54640
+      internalID: -780180141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_82
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 63
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4375da9c60dbe1f4b8f93dd5865d571f
+      internalID: 1742906645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_83
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 63
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14569ae56023d8145b78faf0e2ea5ae1
+      internalID: 735344924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
+      spriteID: e3162e7556e927b43a64ce2665a7ce27
+      internalID: 2002754338
+========
+      spriteID: 73deac0b0010b7f4d814ec93f6a35587
+      internalID: -2124332875
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_65
       rect:
         serializedVersion: 2
@@ -1489,6 +2973,15 @@ TextureImporter:
         y: 14
         width: 21
         height: 39
+========
+      name: Knight_85
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1496,13 +2989,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 748a59b49c560cd42ac2cfe22342a0e2
       internalID: -565118886
+========
+      spriteID: 706c097ce37dca04db65507918883662
+      internalID: -779556499
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_66
       rect:
         serializedVersion: 2
@@ -1510,6 +3009,15 @@ TextureImporter:
         y: 14
         width: 35
         height: 39
+========
+      name: Knight_86
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1517,13 +3025,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 7f1a2251500ae924f80dd8a21bb4df77
       internalID: -1243410732
+========
+      spriteID: d58fb9689d1c361489def1b4ae0eeb74
+      internalID: 1182357874
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_67
       rect:
         serializedVersion: 2
@@ -1531,6 +3045,15 @@ TextureImporter:
         y: 14
         width: 41
         height: 40
+========
+      name: Knight_87
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 0
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1538,13 +3061,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: d3bb68b81db7ba345aac8351ae1a627d
       internalID: 1136828099
+========
+      spriteID: 62f1b523bb9810844bfda1f3fd5f4dbf
+      internalID: 1405473150
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_68
       rect:
         serializedVersion: 2
@@ -1552,6 +3081,15 @@ TextureImporter:
         y: 14
         width: 43
         height: 40
+========
+      name: Knight_88
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 0
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1559,13 +3097,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 2bf3b4111c7e23e47b5655fc92936c29
       internalID: 1644352561
+========
+      spriteID: 9e513932fbc723342abb1435ea9d3a23
+      internalID: 343299054
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       name: Brute_69
       rect:
         serializedVersion: 2
@@ -1573,6 +3117,15 @@ TextureImporter:
         y: 14
         width: 21
         height: 39
+========
+      name: Knight_89
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 0
+        width: 79
+        height: 63
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1580,8 +3133,55 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       spriteID: 9ce8b24b4004a2241a02b8da111b668f
       internalID: -1637931715
+========
+      spriteID: 72b778a74b4154c479dd6c8a4ddb7054
+      internalID: -438700208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_90
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 0
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1453effce81c548963a0467ebea194
+      internalID: 1268754802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_91
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 0
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa276c85d9c3a4459c395e91bdd686d
+      internalID: -1702981619
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
       vertices: []
       indices: 
       edges: []
@@ -1597,6 +3197,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+<<<<<<<< Updated upstream:Assets/_Spirtes/Players/Enemy/Brute.png.meta
       Brute_0: -1378363050
       Brute_1: 1580546986
       Brute_10: 1648706203
@@ -1667,6 +3268,100 @@ TextureImporter:
       Brute_7: 930101306
       Brute_8: 647452376
       Brute_9: 1535666552
+========
+      Knight_0: -1039415763
+      Knight_1: 1753916439
+      Knight_10: 1145012626
+      Knight_11: -2076398434
+      Knight_12: -540319601
+      Knight_13: 873668469
+      Knight_14: 221155953
+      Knight_15: -1679357180
+      Knight_16: -942183832
+      Knight_17: 1190783877
+      Knight_18: -1673766386
+      Knight_19: -1129637233
+      Knight_2: 2083404732
+      Knight_20: 719749861
+      Knight_21: -1142512879
+      Knight_22: -1470230483
+      Knight_23: 870882973
+      Knight_24: -232980884
+      Knight_25: -1690852807
+      Knight_26: 1255014209
+      Knight_27: -1768878322
+      Knight_28: 644007059
+      Knight_29: -1013297850
+      Knight_3: 2103424230
+      Knight_30: 656487356
+      Knight_31: -477291627
+      Knight_32: 1030959118
+      Knight_33: -700934370
+      Knight_34: 1567124524
+      Knight_35: -1384135531
+      Knight_36: -1833890928
+      Knight_37: 418966059
+      Knight_38: -200817782
+      Knight_39: 441034700
+      Knight_4: 265297961
+      Knight_40: 378741137
+      Knight_41: -1234248907
+      Knight_42: 625298451
+      Knight_43: -475517195
+      Knight_44: -367543056
+      Knight_45: 429423613
+      Knight_46: -1011382743
+      Knight_47: -751226801
+      Knight_48: -1360581748
+      Knight_49: -950028092
+      Knight_5: -1435975551
+      Knight_50: -1388448462
+      Knight_51: -478283822
+      Knight_52: 1671386184
+      Knight_53: -204799901
+      Knight_54: -1755343547
+      Knight_55: -1566189958
+      Knight_56: 732573486
+      Knight_57: 2014314811
+      Knight_58: 1206097241
+      Knight_59: 46693966
+      Knight_6: 1613841345
+      Knight_60: 1038715462
+      Knight_61: -1802414449
+      Knight_62: 1749589868
+      Knight_63: -528164640
+      Knight_64: -1880067250
+      Knight_65: -1433677607
+      Knight_66: 1033561398
+      Knight_67: 1549368583
+      Knight_68: 936820747
+      Knight_69: 1673373438
+      Knight_7: 464777927
+      Knight_70: 2019613355
+      Knight_71: 1830668390
+      Knight_72: 675594260
+      Knight_73: -1183549908
+      Knight_74: -1140232016
+      Knight_75: -1575197439
+      Knight_76: -1835889330
+      Knight_77: 55344256
+      Knight_78: 1855352768
+      Knight_79: 653878466
+      Knight_8: 1084107569
+      Knight_80: 232386723
+      Knight_81: -780180141
+      Knight_82: 1742906645
+      Knight_83: 735344924
+      Knight_84: -2124332875
+      Knight_85: -779556499
+      Knight_86: 1182357874
+      Knight_87: 1405473150
+      Knight_88: 343299054
+      Knight_89: -438700208
+      Knight_9: -1913891630
+      Knight_90: 1268754802
+      Knight_91: -1702981619
+>>>>>>>> Stashed changes:Assets/_Spirtes/Players/Knight.png.meta
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
