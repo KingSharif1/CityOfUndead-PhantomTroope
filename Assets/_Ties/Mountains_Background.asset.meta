@@ -1,5 +1,13 @@
 fileFormatVersion: 2
-guid: 0854278aad7bf3c4aae48e7c7c36fbf2
+<<<<<<<< Updated upstream:Assets/_Ties/Mountains_Background.asset.meta
+<<<<<<< Updated upstream
+guid: cc80a3f4c323d4843a1bba959d119361
+=======
+guid: 53cc773fcd02d7c4ab4a14cc5de77e58
+>>>>>>> Stashed changes
+========
+guid: 29309055b49758846b174432e6e048de
+>>>>>>>> Stashed changes:Assets/_Ties/Cliffs_Tile_Map_0.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000
