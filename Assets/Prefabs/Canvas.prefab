@@ -528,3 +528,4 @@ MonoBehaviour:
   keysText: {fileID: 5981089868399640107}
   coinsText: {fileID: 5981089867258218621}
   spawnPoint: {x: 123.32, y: 8.98, z: 0}
+  audioSource: {fileID: 0}
