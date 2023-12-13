@@ -39,10 +39,6 @@ public class basiczombie : MonoBehaviour
         {
             Move();
         }
-        else
-        {
-            FlipToPlayerDirection();
-        }
         CheckPlayerInRange();
     }
 
@@ -57,16 +53,23 @@ public class basiczombie : MonoBehaviour
             rb.velocity = new Vector2(-speed, 0);
         }
 
+
+        // Change direction based on player position
+        // if (player != null)
+        // {
+            
+        // }
+
         // Change point when reaching destination
         if (Vector2.Distance(transform.position, currentpoint.position) < 1.0f && currentpoint == PointB.transform)
         {
-            AutoFlip();
+            Flip();
             currentpoint = PointA.transform;
         }
 
         if (Vector2.Distance(transform.position, currentpoint.position) < 1.0f && currentpoint == PointA.transform)
         {
-            AutoFlip();
+            Flip();
             currentpoint = PointB.transform;
         }
     }
@@ -81,18 +84,19 @@ public class basiczombie : MonoBehaviour
 
             // Attack the player
             // Debug.Log($"(In)Player found: {transform.position.x < player.position.x}");
+
             if (transform.position.x < player.position.x && isAttacking == true)
             {
                 Debug.Log("Flip to right to player");
-                FlipToPlayerDirection();
+                FlipToPlayerDirection(Vector3.right);
                 // FlipToPlayerDirection(Vector3.left);
             }
             else if(transform.position.x > player.position.x && isAttacking == true)
             {
                 Debug.Log("Flip to left to player");
-                FlipToPlayerDirection();
+                FlipToPlayerDirection(Vector3.left);
             }
-            // Attack();
+            Attack();
             // Implement your attack logic here
         }
         else
@@ -100,16 +104,20 @@ public class basiczombie : MonoBehaviour
             isAttacking = false;
         // Move back to the original position
             MoveBackToOriginalPosition();
+                    // Update facing direction based on the movement
 
         }
 
+
         isAttacking = false;
     }
+
 
     void MoveBackToOriginalPosition()
     {
         // Calculate distance to the original position
         float distanceToOriginalPosition = Vector2.Distance(transform.position, currentpoint.position);
+        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
         // Check if the zombie is not already at the original position
         if (distanceToOriginalPosition > 0f)
@@ -120,11 +128,9 @@ public class basiczombie : MonoBehaviour
                 // If moving right
                 if (transform.localScale.x < 0)
                 {
-                    Flip(Vector3.right);
-
-                    // Vector3 localScale = transform.localScale;
-                    // localScale.x *= -1f; // Flip the sprite
-                    // transform.localScale = localScale;
+                    Vector3 localScale = transform.localScale;
+                    localScale.x *= -1.0f; // Flip the sprite
+                    transform.localScale = localScale;
                 }
             }
             else if (rb.velocity.x < 0)
@@ -132,10 +138,9 @@ public class basiczombie : MonoBehaviour
                 // If moving left
                 if (transform.localScale.x > 0)
                 {
-                    Flip(Vector3.left);
-                    // Vector3 localScale = transform.localScale;
-                    // localScale.x *= -1f; // Flip the sprite
-                    // transform.localScale = localScale;
+                    Vector3 localScale = transform.localScale;
+                    localScale.x *= -1.0f; // Flip the sprite
+                    transform.localScale = localScale;
                 }
             }
             // Move towards the original position
@@ -143,46 +148,41 @@ public class basiczombie : MonoBehaviour
         }
     }
 
-    void FlipToPlayerDirection()
+    void FlipToPlayerDirection(Vector3 direction)
     {
 
-        if (player != null)
+        Debug.Log($"Direction: {direction} | localScale: {transform.localScale} | localScale.X: {transform.localScale.x}");
+        // Vector3 localScale = transform.localScale;
+        if(direction.x == 1.0f)
         {
-            // Get player's Rigidbody2D component
-            Rigidbody2D playerRb = player.GetComponent<Rigidbody2D>();
+            Debug.Log("Flip to right ");
+            Vector3 localScale = transform.localScale;
+            localScale.x = 1.0f;
+            transform.localScale = localScale;
 
-            // Predict the player's future position based on its velocity
-            Vector2 predictedPlayerPos = player.position + (Vector3)playerRb.velocity * Time.deltaTime;
+            Debug.Log("movig to player");
+            transform.position = Vector2.MoveTowards(this.transform.position, Playergo.transform.position, speed * Time.deltaTime);
+        }
+        else if(direction.x == -1.0f)
+        {
+            Debug.Log("Flip to left");
+            Vector3 localScale = transform.localScale;
+            localScale.x = -1.0f;
+            transform.localScale = localScale;  
 
-            // Move zombie towards the predicted position
-            transform.position = Vector2.MoveTowards(transform.position, predictedPlayerPos, speed * Time.deltaTime);
-
-            // Flip towards player's direction
-            if (transform.position.x < player.position.x)
-            {
-                Flip(Vector3.right);
-            }
-            else
-            {
-                Flip(Vector3.left);
-            }
+            Debug.Log("movig to player");
+            transform.position = Vector2.MoveTowards(this.transform.position, Playergo.transform.position, speed * Time.deltaTime);
         }
 
     }
 
-    void Flip(Vector3 direction)
-    {
-        Vector3 localScale = transform.localScale;
-        localScale.x = direction.x;
-        transform.localScale = localScale;
-    }
-
-    void AutoFlip()
+    void Flip()
     {
         Vector3 localScale = transform.localScale;
         localScale.x *= -1;
         transform.localScale = localScale;
     }
+
     void Attack()
     {
 

@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: 21113919008346267}
   - component: {fileID: 21113919008346265}
   - component: {fileID: 21113919008346269}
-  - component: {fileID: 21113919008346270}
+  - component: {fileID: 1248079346}
+  - component: {fileID: 1248079347}
   m_Layer: 0
   m_Name: Reacher
   m_TagString: Untagged
@@ -150,8 +151,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.009140253}
-  m_Size: {x: 1.3636364, y: 3.0726285}
+  m_Offset: {x: 0, y: -0.19395757}
+  m_Size: {x: 1.3636364, y: 2.7029939}
   m_Direction: 0
 --- !u!114 &21113919008346265
 MonoBehaviour:
@@ -185,8 +186,8 @@ Rigidbody2D:
   m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 6
---- !u!114 &21113919008346270
+  m_Constraints: 4
+--- !u!114 &1248079346
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -195,11 +196,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 21113919008346245}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 211764414f822514d834bb32f06590c3, type: 3}
+  m_Script: {fileID: 11500000, guid: 923d3083e49642f45adab6b2fb512844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   PointA: {fileID: 0}
   PointB: {fileID: 0}
-  attackPoint: {x: 8, y: 1, z: 0}
   speed: 1
   attackRange: 4
+--- !u!114 &1248079347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21113919008346245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9e6ee4602c441548b460b2a99ddad57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
