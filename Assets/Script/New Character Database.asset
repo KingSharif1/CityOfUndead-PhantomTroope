@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbca4e754d9f649569fd0bc3a6082b0c, type: 3}
+  m_Name: New Character Database
+  m_EditorClassIdentifier: 
+  characters:
+  - characterName: Knife
+    characterSprite: {fileID: 514431059, guid: 7e926128827cb4e62b66dad9250f607c, type: 3}
+  - characterName: Rocket
+    characterSprite: {fileID: 210182597, guid: 07b83efafdd2c4ead8c0ca564dd8e2ad, type: 3}
