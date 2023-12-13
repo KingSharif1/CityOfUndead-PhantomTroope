@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bda00e68860b39b4e9fa7bd17fce12f8
+guid: d040e5662af54d7438a5815c5487362a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 11
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,442 +117,316 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Reacher_0
+      name: cityAmbience_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 274
-        width: 15
-        height: 34
+        x: 0
+        y: 782
+        width: 360
+        height: 260
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3898211f22448b649a99a85694609abf
-      internalID: -985408255
+      spriteID: e770fe9d660458047ba018cd34c6e100
+      internalID: 123378568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reacher_1
+      name: cityAmbience_1
       rect:
         serializedVersion: 2
-        x: 88
-        y: 274
-        width: 15
-        height: 34
+        x: 380
+        y: 822
+        width: 150
+        height: 220
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0685d61faad08cc4994fda34743d600b
-      internalID: -969846952
+      spriteID: a05707d5eb0776742bb345afa6ba3326
+      internalID: -81866804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reacher_2
+      name: cityAmbience_2
       rect:
         serializedVersion: 2
-        x: 153
-        y: 274
-        width: 14
-        height: 34
+        x: 550
+        y: 822
+        width: 150
+        height: 220
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68fd00f7f2e55704db8f444d954d9546
-      internalID: -662710199
+      spriteID: bd0dfda310141ba47ba2da9e15c7f186
+      internalID: -1098535124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reacher_3
+      name: cityAmbience_3
       rect:
         serializedVersion: 2
-        x: 215
-        y: 274
-        width: 15
-        height: 34
+        x: 710
+        y: 952
+        width: 170
+        height: 90
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23f87aa83921258468b72998822a7b69
-      internalID: 602686671
+      spriteID: 082cf68168ee5f84295428733511fef3
+      internalID: -2060462465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reacher_4
+      name: cityAmbience_4
       rect:
         serializedVersion: 2
-        x: 280
-        y: 274
-        width: 16
-        height: 34
+        x: 720
+        y: 872
+        width: 160
+        height: 80
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17603b514a3fec949983bb57d47f2527
-      internalID: -1899084959
+      spriteID: ebfbbbcd8aa3e8c4db6fe4badeb23372
+      internalID: -1393927966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reacher_5
+      name: cityAmbience_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 572
+        width: 310
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b1f71600a1eb547b0e0108652b139e
+      internalID: -1448806127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityAmbience_6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 582
+        width: 310
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e65d0db9d466444c8ebf81936bbacef
+      internalID: -232731466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityAmbience_7
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 632
+        width: 250
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea3cecf2a83fbc4a97dbfbbfc41fbe6
+      internalID: -888248611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cityAmbience_8
       rect:
         serializedVersion: 2
         x: 20
-        y: 210
-        width: 16
-        height: 34
+        y: 392
+        width: 390
+        height: 170
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66be9d387ca712e4ba3cc8b017b7943d
-      internalID: -1511280745
+      spriteID: d4f56e62f4169d64996ddedcad40797f
+      internalID: -1024200879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reacher_6
+      name: cityAmbience_9
       rect:
         serializedVersion: 2
-        x: 83
-        y: 212
-        width: 17
-        height: 34
+        x: 430
+        y: 402
+        width: 250
+        height: 160
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b41121993a6e4674e94f2d30596d4265
-      internalID: -1272011409
+      spriteID: 2916ad2f7fc4d904f9871292446cfe88
+      internalID: 765991146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reacher_7
+      name: cityAmbience_10
       rect:
         serializedVersion: 2
-        x: 150
-        y: 209
-        width: 14
-        height: 34
+        x: 690
+        y: 402
+        width: 80
+        height: 160
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9ac31b9ee9632a40a8b7857f8153757
-      internalID: 1131078599
+      spriteID: 585b22a1a1e1a8c42ae8c4bbb5e0e0fc
+      internalID: 120457026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reacher_8
+      name: cityAmbience_11
       rect:
         serializedVersion: 2
-        x: 208
-        y: 210
-        width: 20
-        height: 34
+        x: 780
+        y: 422
+        width: 90
+        height: 140
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb4a9707e6f626f409a05171a2b78fb7
-      internalID: 444748863
+      spriteID: 44ca7863a5e811040b7cac37d14c7334
+      internalID: -940694093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reacher_9
+      name: cityAmbience_12
       rect:
         serializedVersion: 2
-        x: 277
-        y: 210
-        width: 16
-        height: 34
+        x: 240
+        y: 262
+        width: 420
+        height: 110
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a292c593dde04474f900adcc8eee531c
-      internalID: -90932716
+      spriteID: 4d4435cae229a924888bd70fc224eb0a
+      internalID: -619512242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reacher_10
+      name: cityAmbience_13
       rect:
         serializedVersion: 2
-        x: 23
-        y: 146
-        width: 15
-        height: 34
+        x: 0
+        y: 252
+        width: 230
+        height: 130
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6825ccf3291cf42499824bee1f3aeb63
-      internalID: 1512238016
+      spriteID: 83aafd184e33b4945a1598a254d477c4
+      internalID: -2014801328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reacher_11
+      name: cityAmbience_14
       rect:
         serializedVersion: 2
-        x: 87
-        y: 144
-        width: 16
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fcc79a73f0e852d4db6263c3ae5bfcf1
-      internalID: 2008052679
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reacher_12
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 144
-        width: 16
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 213a11224383f724e9159366908cfd40
-      internalID: 1135281649
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reacher_13
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 144
-        width: 15
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a061a34a3664fc4a8268ea4e94313f9
-      internalID: -268925425
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reacher_14
-      rect:
-        serializedVersion: 2
-        x: 281
-        y: 144
-        width: 14
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1dcb469b32a5bff409615c24c07e005a
-      internalID: 424417586
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reacher_15
-      rect:
-        serializedVersion: 2
-        x: 26
+        x: 750
         y: 82
-        width: 14
-        height: 34
+        width: 130
+        height: 190
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0adc8c8f8c31bf040b3073eec362c26b
-      internalID: -1894850012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reacher_16
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 82
-        width: 16
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28affb2aa8c38aa4c8937e5c7006e7b9
-      internalID: 88109227
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reacher_17
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 82
-        width: 14
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d922742bc7ab5c4eb2f986db3ef9ea2
-      internalID: 1135835490
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reacher_18
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 82
-        width: 16
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 234e246c1e5374448a14a3135264ce6f
-      internalID: -1681051586
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reacher_19
-      rect:
-        serializedVersion: 2
-        x: 277
-        y: 82
-        width: 20
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b30ce47a747f1145b6950da6c41c22b
-      internalID: 1079129477
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reacher_20
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 18
-        width: 40
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa8d98c2588029c439ad97b9725bf483
-      internalID: -457473346
+      spriteID: 0ce711d2640635a4c91a372e4d2f80fc
+      internalID: 322258174
       vertices: []
       indices: 
       edges: []
@@ -568,27 +442,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Reacher_0: -985408255
-      Reacher_1: -969846952
-      Reacher_10: 1512238016
-      Reacher_11: 2008052679
-      Reacher_12: 1135281649
-      Reacher_13: -268925425
-      Reacher_14: 424417586
-      Reacher_15: -1894850012
-      Reacher_16: 88109227
-      Reacher_17: 1135835490
-      Reacher_18: -1681051586
-      Reacher_19: 1079129477
-      Reacher_2: -662710199
-      Reacher_20: -457473346
-      Reacher_3: 602686671
-      Reacher_4: -1899084959
-      Reacher_5: -1511280745
-      Reacher_6: -1272011409
-      Reacher_7: 1131078599
-      Reacher_8: 444748863
-      Reacher_9: -90932716
+      cityAmbience_0: 123378568
+      cityAmbience_1: -81866804
+      cityAmbience_10: 120457026
+      cityAmbience_11: -940694093
+      cityAmbience_12: -619512242
+      cityAmbience_13: -2014801328
+      cityAmbience_14: 322258174
+      cityAmbience_15: -348754256
+      cityAmbience_16: 791677150
+      cityAmbience_2: -1098535124
+      cityAmbience_3: -2060462465
+      cityAmbience_4: -1393927966
+      cityAmbience_5: -1448806127
+      cityAmbience_6: -232731466
+      cityAmbience_7: -888248611
+      cityAmbience_8: -1024200879
+      cityAmbience_9: 765991146
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

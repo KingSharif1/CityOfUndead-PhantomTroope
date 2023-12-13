@@ -26,7 +26,7 @@ public class basiczombie : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         currentpoint = PointB.transform;
-        animator.SetBool("walking", true);
+        animator.SetTrigger("walking");
 
         Playergo = GameObject.FindGameObjectWithTag("Player");
         player = GameObject.FindGameObjectWithTag("Player").transform; // Assuming Player has a "Player" tag
