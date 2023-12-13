@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 658086381309072232}
   - component: {fileID: 658086381309072235}
   - component: {fileID: 658086381309072234}
-  - component: {fileID: 658086381309072237}
   - component: {fileID: 6139604069914004617}
   - component: {fileID: 278712176}
   m_Layer: 0
@@ -128,8 +127,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.20086849, y: -0.16171002}
-  m_Size: {x: 1.3735607, y: 1.4393053}
+  m_Offset: {x: 0.0074555874, y: -0.2294206}
+  m_Size: {x: 0.8776803, y: 1.4335574}
   m_Direction: 0
 --- !u!50 &658086381309072232
 Rigidbody2D:
@@ -165,9 +164,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.29830962, y: -0.87027705}
+  m_Offset: {x: 0.039655685, y: -0.87564933}
   serializedVersion: 2
-  m_Radius: 0.22246203
+  m_Radius: 0.16060078
 --- !u!82 &658086381309072234
 AudioSource:
   m_ObjectHideFlags: 0
@@ -188,7 +187,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 131
   DopplerLevel: 1
-  MinDistance: 0.9995888
+  MinDistance: 0.18852615
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -264,23 +263,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &658086381309072237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 658086381309072209}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51d0193d3f18c9149852f8ef7f3109b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 10
-  jumpForce: 500
-  maxHealth: 100
-  isGrounded: 0
-  shouldJump: 0
 --- !u!114 &6139604069914004617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -310,7 +292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
-  jumpForce: 20
+  jumpForce: 8
   isGrounded: 0
   shouldJump: 0
 --- !u!1 &658086382258086677
@@ -421,7 +403,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3323413140506945592}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.138, y: -0.25, z: 0}
+  m_LocalPosition: {x: 0.22, y: -0.37, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
