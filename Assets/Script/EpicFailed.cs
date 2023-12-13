@@ -6,10 +6,13 @@ public class EpicFailed : MonoBehaviour
 {
     GameManager gameManager;
     private bool isColliding = false;
+    private Animator animator;
 
     private void Start()
     {
         gameManager = GameObject.Find("Canvas").GetComponent<GameManager>();
+        animator = GetComponent<Animator>();
+
     }
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -19,6 +22,9 @@ public class EpicFailed : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             isColliding = true;
+            Debug.Log("Triggering attack animation");
+            this.animator.SetTrigger("attack");
+
             if(gameManager.numOfLives == 0)
             {
                 Animator playerAnimator = other.gameObject.GetComponent<Animator>();
