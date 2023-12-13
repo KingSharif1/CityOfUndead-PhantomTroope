@@ -1,15 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-
-public class basiczombie : MonoBehaviour
+public class reachzombie : MonoBehaviour
 {
-
+ 
     GameManager gameManager;
     public GameObject PointA;
     public GameObject PointB;
+    public Vector3 attackPoint;
+
     public float speed;
     public float attackRange = 4f;
     // public LayerMask playerLayer;
@@ -31,6 +31,8 @@ public class basiczombie : MonoBehaviour
 
         Playergo = GameObject.FindGameObjectWithTag("Player");
         player = GameObject.FindGameObjectWithTag("Player").transform; // Assuming Player has a "Player" tag
+        attackPoint = new Vector3(1,1,1);
+
     }
 
     void Update()
@@ -157,7 +159,7 @@ public class basiczombie : MonoBehaviour
         {
             Debug.Log("Flip to right ");
             Vector3 localScale = transform.localScale;
-            localScale.x = 0.5f;
+            localScale.x = 1.0f;
             transform.localScale = localScale;
 
             Debug.Log("movig to player");
@@ -167,7 +169,7 @@ public class basiczombie : MonoBehaviour
         {
             Debug.Log("Flip to left");
             Vector3 localScale = transform.localScale;
-            localScale.x = -0.5f;
+            localScale.x = -1.0f;
             transform.localScale = localScale;  
 
             Debug.Log("movig to player");
@@ -210,9 +212,10 @@ public class basiczombie : MonoBehaviour
         Gizmos.DrawLine(PointA.transform.position, PointB.transform.position);
 
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, attackRange);
+
+        Gizmos.DrawWireCube(transform.position,  attackPoint);
+        
     }
 
   
-
 }
