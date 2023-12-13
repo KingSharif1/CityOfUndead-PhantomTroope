@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Assets/_Spirtes/Objects/cityAmbience.png.meta
 guid: d040e5662af54d7438a5815c5487362a
-=======
-guid: c103c926de412974eb197847a657829d
->>>>>>> main:Assets/_Spirtes/extra stuff/cityAmbience.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -37,16 +33,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD:Assets/_Spirtes/Objects/cityAmbience.png.meta
     filterMode: 0
-=======
-    filterMode: 1
->>>>>>> main:Assets/_Spirtes/extra stuff/cityAmbience.png.meta
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -55,11 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD:Assets/_Spirtes/Objects/cityAmbience.png.meta
-  spritePixelsToUnits: 100
-=======
-  spritePixelsToUnits: 10
->>>>>>> main:Assets/_Spirtes/extra stuff/cityAmbience.png.meta
+  spritePixelsToUnits: 96
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -74,15 +62,15 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
-  cookieLightType: 0
+  applyGammaDecoding: 1
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -90,26 +78,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-<<<<<<< HEAD:Assets/_Spirtes/Objects/cityAmbience.png.meta
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-=======
->>>>>>> main:Assets/_Spirtes/extra stuff/cityAmbience.png.meta
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -121,7 +94,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -135,27 +108,19 @@ TextureImporter:
       name: cityAmbience_0
       rect:
         serializedVersion: 2
-<<<<<<< HEAD:Assets/_Spirtes/Objects/cityAmbience.png.meta
         x: 0
         y: 782
         width: 360
         height: 260
-=======
-        x: 5
-        y: 1503
-        width: 2
-        height: 3
->>>>>>> main:Assets/_Spirtes/extra stuff/cityAmbience.png.meta
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD:Assets/_Spirtes/Objects/cityAmbience.png.meta
-      spriteID: e770fe9d660458047ba018cd34c6e100
-      internalID: 123378568
+      spriteID: ab15471df66f8cd4295babe64a5f59e9
+      internalID: 1131015755
       vertices: []
       indices: 
       edges: []
@@ -169,14 +134,14 @@ TextureImporter:
         width: 150
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a05707d5eb0776742bb345afa6ba3326
-      internalID: -81866804
+      spriteID: 799a352ff8f24a4429ae6ac73b0cda48
+      internalID: -1109424195
       vertices: []
       indices: 
       edges: []
@@ -190,14 +155,14 @@ TextureImporter:
         width: 150
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd0dfda310141ba47ba2da9e15c7f186
-      internalID: -1098535124
+      spriteID: 27b5e848179b03b47a3ae3738781eaeb
+      internalID: 1208945664
       vertices: []
       indices: 
       edges: []
@@ -211,14 +176,14 @@ TextureImporter:
         width: 170
         height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 082cf68168ee5f84295428733511fef3
-      internalID: -2060462465
+      spriteID: ce8438a254f216a499eda309ff129241
+      internalID: -1097132109
       vertices: []
       indices: 
       edges: []
@@ -232,14 +197,14 @@ TextureImporter:
         width: 160
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebfbbbcd8aa3e8c4db6fe4badeb23372
-      internalID: -1393927966
+      spriteID: 6814656e144219d4d9c2c13813e5f796
+      internalID: 1242826999
       vertices: []
       indices: 
       edges: []
@@ -253,14 +218,14 @@ TextureImporter:
         width: 310
         height: 210
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47b1f71600a1eb547b0e0108652b139e
-      internalID: -1448806127
+      spriteID: 2ae8cd5830dc6ed47be13aa78aa6f613
+      internalID: -1849729790
       vertices: []
       indices: 
       edges: []
@@ -274,14 +239,14 @@ TextureImporter:
         width: 310
         height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e65d0db9d466444c8ebf81936bbacef
-      internalID: -232731466
+      spriteID: f24d6ccf0f37e1b4992f06eaf0fdc564
+      internalID: -1066585063
       vertices: []
       indices: 
       edges: []
@@ -295,14 +260,14 @@ TextureImporter:
         width: 250
         height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aea3cecf2a83fbc4a97dbfbbfc41fbe6
-      internalID: -888248611
+      spriteID: a8e0e4d8c451388439040a5deee1beb1
+      internalID: 817097551
       vertices: []
       indices: 
       edges: []
@@ -316,14 +281,14 @@ TextureImporter:
         width: 390
         height: 170
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4f56e62f4169d64996ddedcad40797f
-      internalID: -1024200879
+      spriteID: d5d3ff45a80f8bd48b96a19c2200ea02
+      internalID: -1524621375
       vertices: []
       indices: 
       edges: []
@@ -337,14 +302,14 @@ TextureImporter:
         width: 250
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2916ad2f7fc4d904f9871292446cfe88
-      internalID: 765991146
+      spriteID: c277dc9b3f1d8b54aaccc83c768094b9
+      internalID: 2120424818
       vertices: []
       indices: 
       edges: []
@@ -358,14 +323,14 @@ TextureImporter:
         width: 80
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 585b22a1a1e1a8c42ae8c4bbb5e0e0fc
-      internalID: 120457026
+      spriteID: df9e71fdb19d6684b82ac71ad42b3112
+      internalID: -74011056
       vertices: []
       indices: 
       edges: []
@@ -379,62 +344,20 @@ TextureImporter:
         width: 90
         height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44ca7863a5e811040b7cac37d14c7334
-      internalID: -940694093
+      spriteID: 8941dc6bcc788074a946ff1293942704
+      internalID: 416227167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cityAmbience_12
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 262
-        width: 420
-        height: 110
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d4435cae229a924888bd70fc224eb0a
-      internalID: -619512242
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cityAmbience_13
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 252
-        width: 230
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83aafd184e33b4945a1598a254d477c4
-      internalID: -2014801328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cityAmbience_14
+      name: cityAmbience_15
       rect:
         serializedVersion: 2
         x: 750
@@ -442,18 +365,14 @@ TextureImporter:
         width: 130
         height: 190
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ce711d2640635a4c91a372e4d2f80fc
-      internalID: 322258174
-=======
-      spriteID: ca93d7d994b87084ab644a605f2ba7dc
-      internalID: -879027270
->>>>>>> main:Assets/_Spirtes/extra stuff/cityAmbience.png.meta
+      spriteID: 6eda0ac6bcfc5a64989e4557d92fcc39
+      internalID: 1329972117
       vertices: []
       indices: 
       edges: []
@@ -461,7 +380,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 6d02a3346171bd64686daca9fc7991ce
     internalID: 0
     vertices: []
     indices: 
@@ -469,27 +388,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-<<<<<<< HEAD:Assets/_Spirtes/Objects/cityAmbience.png.meta
-      cityAmbience_0: 123378568
-      cityAmbience_1: -81866804
-      cityAmbience_10: 120457026
-      cityAmbience_11: -940694093
-      cityAmbience_12: -619512242
-      cityAmbience_13: -2014801328
-      cityAmbience_14: 322258174
-      cityAmbience_15: -348754256
-      cityAmbience_16: 791677150
-      cityAmbience_2: -1098535124
-      cityAmbience_3: -2060462465
-      cityAmbience_4: -1393927966
-      cityAmbience_5: -1448806127
-      cityAmbience_6: -232731466
-      cityAmbience_7: -888248611
-      cityAmbience_8: -1024200879
-      cityAmbience_9: 765991146
-=======
-      cityAmbience_0: -879027270
->>>>>>> main:Assets/_Spirtes/extra stuff/cityAmbience.png.meta
+      cityAmbience_0: 1131015755
+      cityAmbience_1: -1109424195
+      cityAmbience_10: -74011056
+      cityAmbience_11: 416227167
+      cityAmbience_12: 1688237443
+      cityAmbience_13: 285720939
+      cityAmbience_14: 323463847
+      cityAmbience_15: 1329972117
+      cityAmbience_16: -1266126599
+      cityAmbience_2: 1208945664
+      cityAmbience_3: -1097132109
+      cityAmbience_4: 1242826999
+      cityAmbience_5: -1849729790
+      cityAmbience_6: -1066585063
+      cityAmbience_7: 817097551
+      cityAmbience_8: -1524621375
+      cityAmbience_9: 2120424818
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
