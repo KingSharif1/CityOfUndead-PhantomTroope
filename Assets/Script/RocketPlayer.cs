@@ -105,6 +105,11 @@ public class RocketPlayer : MonoBehaviour
         isGrounded = true;
         //rest animate
         animator.SetBool("isJumping", false);
+        if(other.gameObject.tag == "Enemy")
+        {
+            Destroy(other.gameObject);
+            gameManager.numOfLives++;
+        } 
 
         // if (other.CompareTag("Enemy") && gameManager.numOfLives > 0) // Assuming enemy collision
         // {

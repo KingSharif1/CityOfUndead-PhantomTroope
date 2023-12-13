@@ -35,7 +35,7 @@ Transform:
   m_GameObject: {fileID: 2588274396396781634}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -16.21, y: -1.58, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -127,8 +127,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.010782242, y: -0.044147253}
-  m_Size: {x: 2.2321434, y: 5.595897}
+  m_Offset: {x: -0.0029087067, y: -0.028610706}
+  m_Size: {x: 1.1264954, y: 2.942752}
   m_Direction: 0
 --- !u!61 &3362064025484453305
 BoxCollider2D:
@@ -143,18 +143,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.6237779, y: 0.64546156}
+  m_Offset: {x: 0.79557323, y: -0.035631657}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.165015, y: 5.329412}
+    oldSize: {x: 1.1153107, y: 2.7454545}
     newSize: {x: 2.165015, y: 5.329412}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.065608, y: 2.417117}
+  m_Size: {x: 0.6810703, y: 1.3142576}
   m_EdgeRadius: 0
 --- !u!50 &2588274396396781658
 Rigidbody2D:
@@ -176,7 +176,7 @@ Rigidbody2D:
   m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 4
+  m_Constraints: 6
 --- !u!82 &2588274396396781637
 AudioSource:
   m_ObjectHideFlags: 0
