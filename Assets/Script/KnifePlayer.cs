@@ -31,6 +31,8 @@ public class KnifePlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
         // get horizontal input
         float horizontalInput = Input.GetAxis("Horizontal");
         if(isGrounded || !Input.GetButtonDown("Jump") || !Input.GetButtonDown("Vertical"))
@@ -83,6 +85,7 @@ public class KnifePlayer : MonoBehaviour
 
     void FixedUpdate()
     {
+
         if (isGrounded && shouldJump == true)
         {
             // quickly set back to false so we don't double-jump
@@ -94,6 +97,11 @@ public class KnifePlayer : MonoBehaviour
 
             //animate
             animator.SetBool("isJumping", true);
+        }
+
+        if (isGrounded == false && shouldJump == true)
+        {
+            isGrounded = true;
         }
     }
 
