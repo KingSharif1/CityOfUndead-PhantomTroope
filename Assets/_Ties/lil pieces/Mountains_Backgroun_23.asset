@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Mountains_Backgroun_23
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -655506965, guid: 02664337987d54248aa84ee7bc203b09, type: 3}
+  m_Sprite: {fileID: -655506965, guid: dca0e740ae6204d45b362ae91c71159f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

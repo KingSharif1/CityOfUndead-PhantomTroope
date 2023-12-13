@@ -127,6 +127,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 3, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 1, y: 0, z: 0}
     second:
       serializedVersion: 2
@@ -141,7 +151,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 3
-      m_TileSpriteIndex: 3
+      m_TileSpriteIndex: 4294967295
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -151,7 +161,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 2
-      m_TileSpriteIndex: 2
+      m_TileSpriteIndex: 3
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -161,7 +171,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -278,18 +288,22 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: d1652977672785549837a742a60832f7, type: 2}
   - m_RefCount: 1
+<<<<<<< HEAD:Assets/_Spirtes/Objects/forest.prefab
     m_Data: {fileID: 11400000, guid: 6b5dc4f8fb9b4014cbbe4dd26590131b, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 6c4bd4eac6acd5940848cd0401b5b282, type: 2}
+=======
+    m_Data: {fileID: 11400000, guid: dcf91ef932cce0d429a78c31d31c7003, type: 2}
+>>>>>>> main:Assets/_Ties/forest.prefab
   m_TileSpriteArray:
   - m_RefCount: 1
     m_Data: {fileID: -1327254066, guid: f4112c5f4f595da4ba730c2a9202ddd5, type: 3}
   - m_RefCount: 1
+    m_Data: {fileID: 249260747, guid: f4112c5f4f595da4ba730c2a9202ddd5, type: 3}
+  - m_RefCount: 1
     m_Data: {fileID: -1856920748, guid: f4112c5f4f595da4ba730c2a9202ddd5, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -597455772, guid: f4112c5f4f595da4ba730c2a9202ddd5, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 249260747, guid: f4112c5f4f595da4ba730c2a9202ddd5, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1026267867, guid: f4112c5f4f595da4ba730c2a9202ddd5, type: 3}
   - m_RefCount: 1
@@ -315,7 +329,11 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: -141924452, guid: d1f27f24d5f39df469f9c7d08bc35bc7, type: 3}
   m_TileMatrixArray:
+<<<<<<< HEAD:Assets/_Spirtes/Objects/forest.prefab
   - m_RefCount: 16
+=======
+  - m_RefCount: 15
+>>>>>>> main:Assets/_Ties/forest.prefab
     m_Data:
       e00: 1
       e01: 0
@@ -334,7 +352,11 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
+<<<<<<< HEAD:Assets/_Spirtes/Objects/forest.prefab
   - m_RefCount: 16
+=======
+  - m_RefCount: 15
+>>>>>>> main:Assets/_Ties/forest.prefab
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -409,7 +431,11 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+<<<<<<< HEAD:Assets/_Spirtes/Objects/forest.prefab
 --- !u!114 &1528040389226159582
+=======
+--- !u!114 &4311987586389670840
+>>>>>>> main:Assets/_Ties/forest.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
