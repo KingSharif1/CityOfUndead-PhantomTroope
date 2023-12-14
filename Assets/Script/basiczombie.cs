@@ -44,6 +44,7 @@ public class basiczombie : MonoBehaviour
 
     void Move()
     {
+        Debug.Log("mving");
         if (currentpoint == PointB.transform)
         {
             rb.velocity = new Vector2(speed, 0);
@@ -61,13 +62,13 @@ public class basiczombie : MonoBehaviour
         // }
 
         // Change point when reaching destination
-        if (Vector2.Distance(transform.position, currentpoint.position) < 1.0f && currentpoint == PointB.transform)
+        if (Vector2.Distance(transform.position, currentpoint.position) < 2.0f && currentpoint == PointB.transform)
         {
             Flip();
             currentpoint = PointA.transform;
         }
 
-        if (Vector2.Distance(transform.position, currentpoint.position) < 1.0f && currentpoint == PointA.transform)
+        if (Vector2.Distance(transform.position, currentpoint.position) < 2.0f && currentpoint == PointA.transform)
         {
             Flip();
             currentpoint = PointB.transform;
