@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 21113919008346267}
   - component: {fileID: 21113919008346265}
   - component: {fileID: 21113919008346269}
-  - component: {fileID: 21113919008346270}
+  - component: {fileID: -1481554710079313032}
   m_Layer: 0
   m_Name: Reacher
   m_TagString: Untagged
@@ -186,7 +186,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 6
---- !u!114 &21113919008346270
+--- !u!114 &-1481554710079313032
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -195,11 +195,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 21113919008346245}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 211764414f822514d834bb32f06590c3, type: 3}
+  m_Script: {fileID: 11500000, guid: 923d3083e49642f45adab6b2fb512844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   PointA: {fileID: 0}
   PointB: {fileID: 0}
-  attackPoint: {x: 8, y: 1, z: 0}
   speed: 1
   attackRange: 4
